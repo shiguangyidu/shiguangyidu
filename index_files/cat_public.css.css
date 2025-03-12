@@ -1,0 +1,8286 @@
+* {
+  -webkit-text-size-adjust:none;
+}
+body{ 
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+  background: #e7e7e7;
+}
+a:focus,input:focus,p:focus,div:focus{
+-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+html{
+  width: 100%;
+  min-width: 1000px;
+}
+body,html,p,h1,h2,h3,h4,ul,li,dl,dt,dd,input{
+    padding: 0;
+    margin: 0;
+    font-family: "Microsoft YaHei", Arial, sans-serif !important;
+}
+li{
+    list-style: none;
+}
+
+.fluid {
+    width: 100%;
+    position: relative;
+}
+
+.container_box {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+.lineHeight_1{
+  line-height: 1;
+}
+.clearboth::after,.row::after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.text_center{
+    text-align: center;
+}
+.text_left_right {
+    text-align: left
+}
+.text_right {
+    text-align: right;
+}
+.hide {
+    display: none;
+}
+.link{
+    cursor: pointer;
+    color:#28C0C6;
+}
+.danger input {
+  border-color: red!important;
+}
+#app{
+  min-width: 1000px;
+  background: white;
+}
+/* 浏览器样式清除 Begin */
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset; 
+} 
+input[type=text]:focus, input[type=password]:focus, textarea:focus { 
+-webkit-box-shadow: 0 0 0 1000px white inset;
+    border: 1px solid #c9c9c9;
+    box-shadow:none;
+    outline: none;
+}
+/* 浏览器样式清除 End */
+
+/* 尺寸样式 Begin */
+.width_263 {
+    width: 263px!important;
+}
+.width_100{
+    width:100px;
+}
+.width_96{
+  width:96px;
+}
+.width_120{
+    width:120px;
+}
+.width_160{
+    width:160px;
+}
+.width_195{
+    width:195px;
+}
+.width_202{
+    width:202px;
+}
+.width_375{
+    width: 375px;
+}
+.height_40 {
+    height: 40px;
+}
+.height_70{
+    height:70px;
+}
+.lineHeight_70{
+  line-height: 70px;
+}
+/* 尺寸样式 End */
+/* 偏移尺寸  start*/
+.pull-left {
+    float: left;
+}
+.pull-right {
+    float: right;
+}
+.left50 {
+    left: 50% !important;
+}
+.left_0 {
+  left: 0;
+}
+.left_6 {
+    left: 6px;
+}
+.left_10 {
+    left: 10px;
+}
+.left_27 {
+  left: 27px;
+}
+.left_60 {
+    left: 60px;
+}
+.left_95 {
+    left: 95px;
+}
+.left_115{
+  left: 115px;
+}
+.left_120{
+  left: 120px;
+}
+.left_130{
+  left: 130px;
+}
+.left_150{
+  left: 150px;
+}
+.left_175{
+  left: 175px;
+}
+.left_240{
+  left: 240px;
+}
+.left_230{
+  left: 230px;
+}
+.right_0 {
+  right: 0 !important;
+}
+.right_24 {
+    right:24px;
+}
+.left_right_140px{
+  left:140px;
+}
+.left_right_120px{
+  left:120px;
+}
+.right_115{
+  right: 115px;
+}
+.right_165{
+  right: 165px;
+}
+.marginleft-6 {
+  margin-left: -6px!important;
+}
+.marginleft-20 {
+  margin-left: -20px!important;
+}
+.marginleft-39 {
+  margin-left: -39.5px!important;
+}
+.marginleft-90 {
+  margin-left: -90px!important;
+}
+.marginleft-120 {
+  margin-left: -120px!important;
+}
+.marginleft-240 {
+  margin-left: -240px!important;
+}
+.marginleft-250 {
+  margin-left: -250px!important;
+}
+.marginleft-312 {
+margin-left: -312px!important;
+}
+.marginleft-380 {
+margin-left: -380px!important;
+}
+.marginleft_2 {
+  margin-left: 2px!important;
+}
+.marginleft_5 {
+  margin-left: 5px!important;
+}
+.marginleft_6 {
+  margin-left: 6px!important;
+}
+.marginleft_10 {
+  margin-left: 10px!important;
+}
+.marginleft_12 {
+  margin-left: 12px!important;
+}
+.marginleft_15 {
+  margin-left: 15px!important;
+}
+.marginleft_18 {
+  margin-left: 18px!important;
+}
+.marginleft_20 {
+  margin-left: 20px!important;
+}
+.marginleft_23 {
+  margin-left: 23px!important;
+}
+.marginleft_25{
+  margin-left: 25px!important;
+}
+.marginleft_30 {
+  margin-left: 30px!important;
+}
+.marginleft_36 {
+  margin-left: 36px!important;
+}
+.marginleft_42 {
+  margin-left: 42px!important;
+}
+.marginleft_50 {
+  margin-left: 50px!important;
+}
+.marginleft_60 {
+  margin-left: 60px!important;
+}
+.marginleft_70 {
+  margin-left: 70px!important;
+}
+.marginleft_95 {
+  margin-left: 95px!important;
+}
+.marginleft_98 {
+  margin-left: 98px!important;
+}
+.marginleft_100{
+  margin-left:100px!important;
+}
+.marginleft_105{
+  margin-left:105px!important;
+}
+.marginleft_108{
+  margin-left:108px!important;
+}
+.marginleft_120{
+  margin-left:120px!important;
+}
+.marginleft_114{
+  margin-left:114px!important;
+}
+.marginleft_125{
+  margin-left:125px!important;
+}
+.marginleft_130{
+  margin-left:130px!important;
+}
+.marginleft_152{
+  margin-left:152px!important;
+}
+.marginleft_160 {
+  margin-left: 160px!important;
+}
+.marginleft_184 {
+  margin-left: 184px!important;
+}
+.marginleft_200 {
+  margin-left: 200px!important;
+}
+.marginleft_204 {
+  margin-left: 204px!important;
+}
+.marginleft_210 {
+  margin-left: 210px!important;
+}
+.marginleft_213 {
+  margin-left: 213px!important;
+}
+.marginleft_215 {
+  margin-left: 215px!important;
+}
+.marginleft_220 {
+  margin-left: 220px!important;
+}
+.marginleft_235{
+  margin-left:235px!important;
+}
+.marginleft_240{
+  margin-left:240px!important;
+}
+.marginleft_290{
+  margin-left:290px;
+}
+.marginleft_620{
+  margin-left:620px!important;
+}
+.marginright_5 {
+  margin-right:5px;
+}
+.marginright_10 {
+    margin-right:10px;
+}
+.marginright_13 {
+    margin-right:13px;
+}
+.marginright_20 {
+    margin-right:20px;
+}
+.marginright_30 {
+  margin-right:30px!important;
+}
+.marginright_50 {
+    margin-right:50px;
+}
+.paddingleft_5{
+  padding-left: 5px;
+}
+.paddingleft_6{
+    padding-left: 6px;
+}
+.paddingleft_10{
+    padding-left: 10px;
+}
+.paddingleft_14{
+    padding-left: 14px;
+}
+.paddingleft_15{
+    padding-left: 15px;
+}
+.paddingleft_18{
+    padding-left: 18px;
+}
+.paddingleft_20 {
+    padding-left:20px;
+}
+.paddingleft_22 {
+    padding-left:22px;
+}
+.paddingleft_25 {
+    padding-left:25px;
+}
+.paddingleft_30 {
+    padding-left:30px;
+}
+.paddingleft_50 {
+    padding-left:50px;
+}
+.paddingleft_85 {
+    padding-left:85px;
+}
+.paddingleft_170 {
+    padding-left:170px;
+}
+.paddingleft_212 {
+    padding-left:212px;
+}
+.paddingleft_218 {
+    padding-left:218px;
+}
+.paddingright_8 {
+  padding-right:8px;
+}
+.paddingright_10 {
+    padding-right:10px;
+}
+.paddingright_15 {
+    padding-right:15px;
+}
+.paddingright_20 {
+  padding-right:20px;
+}
+.paddingright_25{
+  padding-right:25px;
+}
+.paddingright_40 {
+  padding-right:40px;
+}
+.padding_50{
+    padding:0 50px;
+}
+.padding-3px{
+  padding-right: 3px;
+}
+.background_left {
+  background-position: left;
+}
+.absolute_center {
+    position: absolute!important;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+.table_cell {
+  display: table-cell!important;
+  vertical-align: middle;
+  line-height: 1!important;
+}
+/* 偏移尺寸  end*/
+/* 气泡弹框  Begin */
+.bubble_box{
+    display: none;
+    width: 115px;
+    padding: 5px;
+    border-radius: 5px;
+    background: #28c6c0;
+    color:#fff;
+    position: absolute;
+    left:0;
+    font-size: 12px;
+    word-wrap:break-word;
+    word-break: break-word;
+}
+.bubble_box::after{
+    content:"";
+    position:absolute;
+    bottom: -12px;
+    left:57px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-top-color:#28c6c0;
+}
+/* 气泡弹框  end */
+/* 更多功能列表行样式 Begin */
+.row {
+    position: relative;
+    clear: both;
+    min-height: 37px;
+    line-height: 37px;
+    margin-top: 12px;
+    margin-bottom: 2px;
+    font-size: 14px;
+}
+.row > div {
+    float: left;
+    height: 100%;
+}
+.row > div:first-child {
+    width: 197px;
+    text-align: right;
+}
+.row > div:last-child {
+    margin-left: 18px;
+    width: 375px;
+    text-align: left;
+    position: relative;
+}
+.margin_5 {
+    margin-left: 5px;
+}
+.margin_30 {
+    margin-left: 30px;
+}
+.margin_60 {
+    margin-left: 60px;
+}
+.margin_80 {
+  margin-left: 80px;
+}
+.margin_215 {
+    margin-left: 215px!important;
+}
+.margin_220 {
+    margin-left: 220px;
+}
+.margin_325 {
+  margin-left: 325px;
+}
+.margin_243 {
+  margin-left: 243px;
+}
+.subject {
+    margin-top: 50px;
+    font-size: 14px;
+}
+.row_list_title {
+    margin-top: 30px;
+    color: #262626;
+    font-size: 16px;
+    font-weight: 700;
+    height: 21px;
+    line-height: 21px;
+    text-align: left;
+    padding-left: 50px;
+}
+.row_list_title:first-of-type {
+    margin-top: 0
+}
+.wifiSycSuccess {
+  padding-left: 24px;
+  cursor: default;
+  margin-top: 8px;
+}
+/* 更多功能列表行样式 End */
+.disc li,  li.disc {
+    list-style: disc
+}
+.underline-link{
+  cursor:pointer;
+  color:#28c0c6;
+  text-decoration:underline;
+}
+/* 按钮样式  Begin */
+.btn {
+    width: 50px;
+    height: 27px;
+    overflow: hidden;
+    margin-top: 7px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+.btn_off {
+  background-image: url('../res/atp-icon.png');
+  background-position: left -1323px;
+}
+.btn_on {
+  background-image: url('../res/atp-icon.png');
+  background-position: left -1353px;
+}
+.btn_unclick {
+  background-image: url('../res/atp-icon.png');
+  background-position: left -1383px;
+}
+.ic-checkbox {
+  width: 21px;
+  padding-right: 4px;
+  min-height: 21px;
+  background-repeat: no-repeat;
+  overflow: hidden;cursor: pointer;
+}
+.checkbox{
+  height:21px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -819px;
+}
+.checkbox_press{
+    height:21px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -843px;
+}
+.wifi6 {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -1413px;
+  vertical-align: middle;
+}
+.wifi60 {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -1440px;
+  vertical-align: middle;
+}
+.edit_big {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -1467px;
+    vertical-align: middle;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.edit_big:hover {
+  background-image: url('../res/atp-icon.png');
+  background-position: left -1500px;
+}
+.edit_big.disabled:hover, .edit_big.disabled {
+  background-image: url('../res/atp-icon.png');
+  background-position: left -1467px;
+    cursor: default;
+    opacity: 0.5;
+}
+.offline_icon {
+  background-image: url('../res/atp-icon.png');
+  background-position: left -1533px;
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+}
+.ic_router_hi {
+  width: 50px; height: 50px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -0px;
+}
+.ic-add_normal {
+    width: 42px;
+    height: 42px;
+    overflow: hidden;
+    cursor: pointer;
+    background-repeat: no-repeat;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -1568px;
+}
+
+.ic-add_normal:hover {
+    width: 42px;
+    height: 42px;
+    overflow: hidden;
+    cursor: pointer;
+    background-repeat: no-repeat;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -1613px;
+}
+.ic-del {
+    width: 30px; height: 30px;
+    overflow: hidden;
+    cursor: pointer;
+    background-repeat: no-repeat;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -1658px;
+}
+.ic-del:hover {
+    width: 30px; height: 30px;
+    overflow: hidden;
+    cursor: pointer;
+    background-repeat: no-repeat;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -1691px;
+}
+.ic-undel {
+    width: 30px; height: 30px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -1724px;
+}
+.ic_uparrow, .ic_downarrow {
+    padding-left: 20px;
+    position: relative;
+}
+.ic_uparrow::before, .ic_downarrow::before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    background-repeat: no-repeat;
+}
+.user_select{
+  moz-user-select: -moz-none;
+  -moz-user-select: none;
+  -o-user-select:none;
+  -khtml-user-select:none;
+  -webkit-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+}
+.ic_uparrow::before {
+  background-image: url('../res/atp-icon.png');
+  background-position: left -1757px;
+}
+.ic_downarrow::before {
+  background-image: url('../res/atp-icon.png');
+  background-position: left -1775px;
+}
+.ic-radio{
+    width: 18px; 
+    height: 18px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.radio-press{
+  cursor: pointer;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -1793px;
+}
+.radio{
+  cursor: pointer;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -1814px;
+}
+.radio_unclick{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -1835px;
+}
+.ic_tgp_help {
+  width: 48px; height: 48px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  cursor: pointer;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -1856px;
+}
+.ic-help {
+  width: 23px; height: 23px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  cursor: pointer;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -1907px;
+}
+.eyeShow {
+    width: 30px;
+    height: 30px;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -1933px;
+}
+.eyeHidden {
+    width: 30px;
+    height: 30px;
+    background-image: url('../res/atp-icon.png');
+    background-position: left -1966px;
+}
+/* Devices Begin */
+.devices_cate_btn {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.btn_cur{
+  width: 20px;
+  height: 20px;
+  color: white;
+  border: none;
+  outline: none;
+  background-repeat: no-repeat;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -1999px;
+}
+.btn_prev_disable, .btn_prev{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -2024px;
+}
+.btn_prev:hover{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -2049px;
+}
+.btn_next_disable, .btn_next{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -2074px;
+}
+.btn_next:hover{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -2099px;
+}
+
+.btn_first_disable, .btn_first{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -2124px;
+}
+.btn_first:hover{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -2149px;
+}
+
+.btn_last_disable, .btn_last{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -2174px;
+}
+.btn_last:hover{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -2199px;
+}
+.btn_num{ 
+  font-size:12px; 
+  width:20px;
+  height:20px;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -1999px;
+}
+.Devices .rateEdit .InputComponent .inputArea {
+  padding: 0 0 0 3px!important;
+}
+/* Devices End */
+/* 升级图片 Begin */
+/* 强制升级图片 Begin */
+.ic_router_upgrade{
+  background-image: url(../res/router_and_back.png);
+}
+.ic_pro_upgrade{
+  background-image: url(../res/router_pro_back.png);
+}
+.ic_5100_upgrade{
+  background-image: url(../res/router_5100_back.png);
+}
+.ic_5102_upgrade{
+  background-image: url(../res/router_5102_back.png);
+}
+.ic_s1_upgrade{
+  background-image: url(../res/router_s1_back.png);
+}
+.ic_318_upgrade{
+  background-image: url(../res/router_318_back.png);
+}
+/* 升级图片 End */
+.ic_topo {
+  position: absolute;
+  width: 110px;height: 110px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.ic_prev_topo{
+  left: -25px;
+  top: 48px;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -2333px;
+}
+.ic_next_topo{
+  right: -25px;
+  top: 48px;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -2446px;
+}
+.ic_topo:hover{
+  opacity: 1;
+}
+.ic_disabled_topo, .ic_disabled_topo:hover{
+  opacity: 0.3;
+}
+.ic_new{
+  position:absolute;right:0;top:-10px;
+  width: 34px;height: 30px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  z-index: 5;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -2559px;
+}
+.ic_update{
+  position:absolute;right:0;top:-10px;
+  width: 34px;height: 30px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  z-index: 5;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -2592px;
+}
+
+.ic_hi{
+  width: 16px;height: 16px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -2625px;
+}
+
+.ic_hi_offline{
+  width: 16px;height: 16px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -2644px;
+}
+.ic_new,.ic_update{
+  cursor: pointer;
+}
+
+.ic_new:hover + .tag_detail_other,.ic_update:hover + .tag_detail_other{
+  display: block;
+}
+.tag_detail_other{
+  display: none;
+  position: absolute;
+  top: -15px;
+  left: 115px;
+  width: 130px;
+  background-color: #28C0C6;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  z-index:10;
+}
+.tag_detail_other:after{
+  content:"";
+  display: block;
+  position: absolute;
+  left: -7px;
+  border-style:solid;
+  text-align:center;
+  top: 10px;
+  border-width:7px;
+  border-color:transparent;
+  border-left-width:0;
+  border-right-color: #28c6c0;
+}
+.ic_add_normal_topo{
+    width: 34px; height: 34px;
+    margin-top: 9px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -2663px;
+  }
+  .ic_add_normal_topo:hover{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -2700px;
+    cursor: pointer;
+  }
+  .ic_line_left_topo{
+    width: 118px; height: 34px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -2737px;
+  }
+  .ic_line_right_topo{
+    width: 118px; height: 34px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -2775px;
+  }
+  .ic_interent_topo{
+    position: relative;
+    width: 96px; height: 96px;
+    background-repeat: no-repeat;
+    background-image: url('../res/atp-icon.png');
+    background-position: left -2813px;
+  }
+  .upg_router_honor {
+    background-image: url('../res/atp-topobrand.png');
+    background-position: left -50px;
+  }
+  .upg_router_prism {
+    background-image: url('../res/atp-topobrand.png');
+    background-position: left -103px;
+  }
+  .upg_plc {
+    background-image: url('../res/atp-topobrand.png');
+    background-position: left -156px;
+  }
+  .upg_router {
+    background-image: url('../res/atp-topobrand.png');
+    background-position: left -209px;
+  }
+  .upg_router_huawei {
+    background-image: url('../res/atp-topobrand.png');
+    background-position: left -262px;
+  }
+  .upg_router_1 {
+    background-image: url('../res/atp-topobrand.png');
+    background-position: left -315px;
+  }
+  .upg_router_2 {
+    background-image: url('../res/atp-topobrand.png');
+    background-position: left -368px;
+  }
+  .upg_router_3 {
+    background-image: url('../res/atp-topobrand.png');
+    background-position: left -421px;
+  }
+  .upg_router_4 {
+    background-image: url('../res/atp-topobrand.png');
+    background-position: left -474px;
+  }
+  .upg_router_4_black {
+    background-image: url('../res/atp-topobrand.png');
+    background-position: left -474px;
+  }
+  .upg_router_8 {
+    background-image: url('../res/atp-topobrand.png');
+    background-position: left -527px;
+  }
+  .upg_router_huawei_cyl {
+    background-image: url('../res/atp-topobrand.png');
+    background-position: left -580px;
+  }
+  .upg_flathonor {
+    background-image: url('../res/atp-topobrand.png');
+    background-position: left -633px;
+  }
+  .upg_router_huawei_minicylindroid {
+    background-image: url('../res/atp-topobrand.png');
+    background-position: left -686px;
+  }
+  .upg_wifirepeater {
+    background-image: url('../res/atp-topobrand.png');
+    background-position: left -739px;
+  }
+  .upg_router_huawei_longcylinder {
+    background-image: url('../res/atp-topobrand.png');
+    background-position: left -792px;
+  }
+  .upg_router_huawei_switch{
+    background-image: url(../res/topobrand/upg_router_huawei_switch.png);
+  }
+  .upg_router_huawei_panel{
+    background-image: url(../res/topobrand/upg_router_huawei_panel.png);
+  }
+  .upg_router_huawei_ellipse{
+    background-image: url(../res/topobrand/upg_router_huawei_ellipse.png);
+  }
+  .upg_router_huawei_miniellipse{
+    background-image: url(../res/topobrand/upg_router_huawei_miniellipse.png);
+  }
+  .ic_1plus{
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -845px;
+  }
+  .ic_1plus_logo{
+    background-image: url(../res/brandicons/1plus_logo.png);
+  }
+  .ic_360 {
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -928px;
+  }
+  .ic_360_logo{
+    background-image: url(../res/brandicons/360_logo.png);
+  }
+  .ic_aircleaner {
+    background-image: url(../res/brandicons/air_cleaner.png);
+  }
+  .ic_airconditioner {
+    background-image: url(../res/brandicons/air_conditioner.png);
+  }
+  .ic_airdetector {
+    background-image: url(../res/brandicons/air_detector.png);
+  }
+  .ic_apple{
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -1012px;
+  }
+  .ic_apple_logo{
+    background-image: url(../res/brandicons/apple_logo.png);
+  }
+  .ic_asus{
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -1095px;
+  }
+  .ic_asus_logo{
+    background-image: url(../res/brandicons/asus_logo.png);
+  }
+  .ic_blackberry{
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -1178px;
+  }
+  .ic_blackberry_logo{
+    background-image: url(../res/brandicons/blackberry_logo.png);
+  }
+  .ic_coolpad{
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -1261px;
+  }
+  .ic_coolpad_logo{
+    background-image: url(../res/brandicons/coolpad_logo.png);
+  }
+  .ic_curtain {
+    background-image: url(../res/brandicons/curtain.png);
+  }
+  .ic_dell{
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -1344px;
+  }
+  .ic_dell_logo{
+    background-image: url(../res/brandicons/dell_logo.png);
+  }
+  .ic_dlink{
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -1427px;
+  }
+  .ic_dlink_logo{
+    background-image: url(../res/brandicons/dlink_logo.png);
+  }
+  .ic_ethernet {
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -1510px;
+  }
+  .ic_computer {
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -1593px;
+  }
+  .ic_flathonor {
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -1676px;
+  }
+  .ic_router_huawei_minicylindroid {
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -1759px;
+  }
+  .ic_router_4_black {
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -1842px;
+  }
+  .ic_game {
+    background-image: url(../res/brandicons/game.png);
+  }
+  .ic_gee{
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -1925px;
+  }
+  .ic_gee_logo{
+    background-image: url(../res/brandicons/gee_logo.png);
+  }
+  .ic_google {
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -2008px;
+  }
+  .ic_google_logo{
+    background-image: url(../res/brandicons/google_logo.png);
+  }
+  .ic_hisense {
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -2091px;
+  }
+  .ic_hisense_logo {
+    background-image: url(../res/brandicons/hisense_logo.png);
+  }
+  .ic_honor {
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -2174px;
+  }
+  .ic_router_honor {
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -2257px;
+  }
+  .ic_router_prism {
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -2340px;
+  }
+  .ic_honor_logo {
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -2423px;
+  }
+  .ic_htc{
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -2460px;
+  }
+  .ic_htc_logo {
+    background-image: url(../res/brandicons/htc_logo.png);
+  }
+  .ic_huawei{
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -2543px;
+  }
+  .ic_huawei_logo {
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -2626px;
+  }
+  .ic_lamp {
+    background-image: url(../res/brandicons/lamp.png);
+  }
+  .ic_laptop {
+    background-image: url(../res/brandicons/laptop.png);
+  }
+  .ic_le{
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -2663px;
+  }
+  .ic_le_logo {
+    background-image: url(../res/brandicons/le_logo.png);
+  }
+  .ic_lenovo{
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -2746px;
+  }
+  .ic_lenovo_logo {
+    background-image: url(../res/brandicons/lenovo_logo.png);
+  }
+  .ic_lg{
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -2829px;
+  }
+  .ic_lg_logo {
+    background-image: url(../res/brandicons/lg_logo.png);
+  }
+  .ic_meizu{
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -2912px;
+  }
+  .ic_meizu_logo {
+    background-image: url(../res/brandicons/meizu_logo.png);
+  }
+  .ic_mercury{
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -2995px;
+  }
+  .ic_mercury_logo {
+    background-image: url(../res/brandicons/mercury_logo.png);
+  }
+  .ic_microsoft{
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -3078px;
+  }
+  .ic_microsoft_logo {
+    background-image: url(../res/brandicons/microsoft_logo.png);
+  }
+  .ic_moto{
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -3161px;
+  }
+  .ic_moto_logo {
+    background-image: url(../res/brandicons/moto_logo.png);
+  }
+  .ic_multisocket {
+    background-image: url(../res/brandicons/multisocket.png);
+  }
+  .ic_wifimusicplayer {
+    background-image: url(../res/brandicons/wifimusicplayer.png);
+  }
+  .ic_netcore{
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -3244px;
+  }
+  .ic_netcore_logo {
+    background-image: url(../res/brandicons/netcore_logo.png);
+  }
+  .ic_netgear{
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -3327px;
+  }
+  .ic_netgear_logo {
+    background-image: url(../res/brandicons/netgear_logo.png);
+  }
+  .ic_nokia{
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -3410px;
+  }
+  .ic_nokia_logo {
+    background-image: url(../res/brandicons/nokia_logo.png);
+  }
+  .ic_nubia{
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -3493px;
+  }
+  .ic_nubia_logo {
+    background-image: url(../res/brandicons/nubia_logo.png);
+  }
+  .ic_oppo{
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -3576px;
+  }
+  .ic_oppo_logo {
+    background-image: url(../res/brandicons/oppo_logo.png);
+  }
+  .ic_ott {
+    background-image: url(../res/brandicons/ott.png);
+  }
+  .ic_tablet {
+    background-image: url(../res/brandicons/tablet.png);
+  }
+  .ic_desktop {
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -1593px;
+  }
+  .ic_mobile {
+    background-image: url(../res/brandicons/mobile.png);
+  }
+  .ic_plc {
+    background-image: url(../res/brandicons/plc.png);
+  }
+  .ic_repeater {
+    background-image: url(../res/brandicons/repeater.png);
+  }
+  .ic_router {
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -3659px;
+  }
+  .ic_router_huawei {
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -3742px;
+  }
+  .ic_router_1 {
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -3825px;
+  }
+  .ic_router_2 {
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -3908px;
+  }
+  .ic_router_3 {
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -3991px;
+  }
+  .ic_router_4 {
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -1842px;
+  }
+  .ic_router_8 {
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -4074px;
+  }
+  .ic_router_huawei_cyl {
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -4157px;
+  }
+  .ic_samsung{
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -4240px;
+  }
+  .ic_samsung_logo{
+    background-image: url(../res/brandicons/samsung_logo.png);
+  }
+  .ic_skyworth {
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -4323px;
+  }
+  .ic_skyworth_logo {
+    background-image: url(../res/brandicons/skyworth_logo.png);
+  }
+  .ic_smartswitch {
+    background-image: url(../res/brandicons/smartswitch.png);
+  }
+  .ic_socket {
+    background-image: url(../res/brandicons/socket.png);
+  }
+  .ic_sony{
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -4406px;
+  }
+  .ic_sony_logo {
+    background-image: url(../res/brandicons/sony_logo.png);
+  }
+  .ic_sonyericsson{
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -4406px;
+  }
+  .ic_sonyericsson_logo {
+    background-image: url(../res/brandicons/sony_logo.png);
+  }
+  .ic_tcl {
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -4489px;
+  }
+  .ic_tcl_logo {
+    background-image: url(../res/brandicons/tcl_logo.png);
+  }
+  .ic_tenda{
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -4572px;
+  }
+  .ic_tenda_logo {
+    background-image: url(../res/brandicons/tenda_logo.png);
+  }
+  .ic_tplink{
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -4655px;
+  }
+  .ic_tplink_logo {
+    background-image: url(../res/brandicons/tplink_logo.png);
+  }
+  .ic_television{
+    background-image: url(../res/brandicons/television.png);
+  }
+  .ic_vivo{
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -4738px;
+  }
+  .ic_vivo_logo {
+    background-image: url(../res/brandicons/vivo_logo.png);
+  }
+  .ic_wifi {
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -4821px;
+  }
+  .ic_xiaomi{
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -4904px;
+  }
+  .ic_xiaomi_logo {
+    background-image: url(../res/brandicons/xiaomi_logo.png);
+  }
+  .ic_amazon{
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -4987px;
+  }
+  .ic_amazon_logo {
+    background-image: url(../res/brandicons/amazon_logo.png);
+  }
+  .ic_zte{
+  background-image: url('../res/atp-topobrand.png');
+  background-position: left -5070px;
+  }
+  .ic_zte_logo {
+    background-image: url(../res/brandicons/zte_logo.png);
+  }
+  .ic_wifirepeater{
+    background-image: url('../res/atp-topobrand.png');
+    background-position: left -5153px;
+  }
+  .ic_router_huawei_longcylinder{
+    background-image: url('../res/atp-topobrand.png');
+    background-position: left -5236px;
+  }
+  .ic_router_huawei_switch{
+    background-image: url(../res/topobrand/router_huawei_switch.png);
+  }
+  .ic_router_huawei_panel{
+    background-image: url(../res/topobrand/router_huawei_panel.png);
+  }
+  .ic_router_huawei_ellipse{
+    background-image: url(../res/topobrand/router_huawei_ellipse.png);
+  }
+  .ic_router_huawei_miniellipse{
+    background-image: url(../res/topobrand/router_huawei_miniellipse.png);
+  }
+
+.common_button {
+    height: 40px;
+    padding: 0 8px;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 auto;
+    color: #000;
+    border: 1px solid #c9c9c9;
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 8px; 
+}
+.common_button_long_press {
+    width: 263px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 auto;
+    color: #fff;
+    border: 1px solid #28C0C6;
+    background-color: #28C0C6;
+    border-radius: 8px;
+}
+.common_button_long, .white_button_long, .unhover_button_long, .common_button_long_disable {
+    width: 263px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 auto;
+    color: #000;
+    border: 1px solid #c9c9c9;
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 8px;
+}
+.unhover_button_long {
+    cursor: default;
+}
+.common_button_long_disable {
+    border-color: rgba(201,201,201,0.3);
+    cursor: default;
+}
+.common_button_long:hover, .white_button_long:hover, .common_button:hover {
+    background-color: #28C0C6;
+    border: 1px solid #28C0C6;
+    color: #fff;
+}
+.white_button_long {
+    color: #fff;
+}
+.button {
+    text-align: center;
+    cursor: pointer;
+    margin: 0 auto;
+    color: #333;
+    border: 1px solid #c9c9c9;
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 8px;
+    display: inline-block;
+}
+.button_common_short_unclick {
+    width: 175px;
+    height: 45px;
+    font-size: 16px;
+    line-height: 45px;
+}
+.button_common_short {
+    width: 175px;
+    height: 45px;
+    font-size: 16px;
+    line-height: 45px;
+}
+.button_press_short{
+  width: 175px;
+  height: 45px;
+  font-size: 16px;
+  line-height: 45px;
+  background-color: #28C0C6;
+  border: 1px solid #28C0C6;
+  color: #fff;
+}
+.button_common_short:hover {
+    background-color: #28C0C6;
+    border: 1px solid #28C0C6;
+    color: #fff;
+}
+/* 按钮样式  End */
+/* Nav Begin */
+.want_home_big{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -2912px;
+}
+.want_home{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -3037px;
+}
+.want_home_press{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -3088px;
+}
+.want_internet_big{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -3139px;
+}
+.want_internet{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -3264px;
+}
+.want_internet_disabled{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -3315px;
+}
+.want_internet_press{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -3366px;
+}
+.want_wifi_big{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -3417px;
+}
+.want_wifi{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -3542px;
+}
+.want_wifi_disabled{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -3593px;
+}
+.want_wifi_press{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -3644px;
+}
+.want_qos_big{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -3695px;
+}
+.want_qos{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -3820px;
+}
+.want_qos_disabled{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -3871px;
+}
+.want_qos_press{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -3922px;
+}
+.want_devicecontrol_big{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -3973px;
+}
+.want_devicecontrol{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -4098px;
+}
+.want_devicecontrol_disabled{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -4149px;
+}
+.want_devicecontrol_press{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -4200px;
+}
+.want_more_big{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -4251px;
+}
+.want_more{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -4376px;
+}
+.want_more_press{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -4427px;
+}
+/* Nav End */
+/* 向导样式 Begin */
+.guide_internet{
+    width:98px;
+    height:98px;
+    margin-top: 27px;
+    overflow: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+  background-image: url('../res/atp-icon2.png');
+  background-position: left -597px;
+}
+.guideborder {
+    width: 708px;
+    min-height: 300px;
+    border: 1px solid #c9c9c9;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.upgline_back{
+  width:400px;
+  height:5px;
+  overflow: hidden;
+  background-color: #D6DAE1;
+}
+.upgline{
+  width:2px;
+  height:5px;
+  overflow: hidden;
+  background-color: #26C6C0;
+}
+/* 向导样式 end */
+/* 一级页面 Begin */
+.mianContent{
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+  }
+.content_line{
+    width:710px;
+    border: 1px solid #c9c9c9;
+    border-radius: 5px;
+    margin: 0 auto ;
+}
+/* 一级页面 End */
+/* 文字超出...显示 */
+.ellipsis{
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.border_1px {
+    border: 1px solid #c9c9c9;
+}
+.border_top {
+    border-top: 1px solid #C9C9C9;
+}
+.border_1px_bottom {
+    border-bottom: 1px solid #c9c9c9;
+}
+.border_1px_right {
+    border-right: 1px solid #c9c9c9;
+}
+.border_1px_left {
+    border-left: 1px solid #c9c9c9;
+}
+.bdr_12 {
+    border-radius: 12px
+}
+.table_bg {
+    background-color: #e9e9e9;
+}
+.signinfo {
+    width: auto;margin: 0 80px;display: inline-block;
+}
+.ic_signx {
+  background-repeat: no-repeat;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -1190px;
+}
+.ic_sign {
+  color: rgb(89, 89, 89);
+  position: relative;
+  font-size: 12px;
+  font-weight: 400;
+  padding-left: 30px;
+  margin-top: 12px;
+  width: 375px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.ic_sign::before {
+    content: "";
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    background-repeat: no-repeat;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -1190px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.learnsuccess {
+  color: rgb(89, 89, 89);
+  position: relative;
+  font-size: 14px;
+  padding-left: 30px;
+  display: inline-block;
+  text-align: left;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.learnsuccess::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  background-repeat: no-repeat;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -1215px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+.learn_failed {
+  color: #595959;
+  font-weight: bold;
+  position: relative;
+  padding-left: 30px;
+  display: inline-block;
+  text-align: left;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.learn_failed::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  background-repeat: no-repeat;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -4857px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+.ic-loading{
+  width: 79px; height: 79px;
+  background-repeat: no-repeat;
+  background-image: url(../res/loading.gif);
+}
+/* repeater start */
+.guidegray{
+    height: 38px;
+    line-height: 38px;
+    font-size: 12px;
+    color: #595959;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid rgb(201, 201, 201)
+}
+.wifiscan {
+    width: 200px;
+    cursor: pointer;
+    margin-right: 20px;
+    color: #28C0C6;
+}
+#wifilist {
+  min-height: 220px;
+}
+.gscroll{
+  height: 302px;overflow: scroll;overflow-x: hidden;
+}
+.gscrollitem{
+  font-size:14px;height:60px;text-align:center;cursor:pointer;border-bottom: 1px solid #c9c9c9;
+}
+.gscrollitem.active,#othernet_btn.active{
+  background-color: #eee;
+}
+.gscrollitem:hover,.gscrollitem:hover div,#othernet_btn:hover,#othernet_btn:hover div{
+  color: #fff;
+  background-color: #28C0C6;
+}
+#othernet_btn{
+  height:60px;cursor:pointer;font-size:16px;line-height:60px;
+}
+.rlistconnect{
+  width: 30px;height: 30px;font-size:18px;padding-top:12px;color: #28C0C6;
+}
+.wifiupssid{
+    font-size: 14px;
+    color: #333;
+}
+.wifiupssid.active{
+    color: #28C0C6;
+}
+.wifiupwpa{
+    font-size: 12px;
+    color: #A5A5A5;
+}
+.ic_scannowifi{
+    width:68px;height:68px;
+    background-repeat: no-repeat;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -4884px;
+}
+.wifiopen3{
+  width:30px;
+  height:30px;
+  background-repeat: no-repeat;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -4955px;
+}
+.wifiopen2{
+  width:30px;
+  height:30px;
+  background-repeat: no-repeat;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -4988px;
+}
+.wifiopen1{
+  width:30px;
+  height:30px;
+  background-repeat: no-repeat;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -5021px;
+}
+.wifilock3{
+  width:30px;
+  height:30px;
+  background-repeat: no-repeat;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -5054px;
+}
+.wifilock2{
+  width:30px;
+  height:30px;
+  background-repeat: no-repeat;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -5087px;
+}
+.wifilock1{
+  width:30px;
+  height:30px;
+  background-repeat: no-repeat;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -5120px;
+}
+/* repeater end */
+.ic_wanconnected{
+  width:23px;
+  height:23px;
+  background-repeat: no-repeat;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -5153px;
+}
+.ic_wanfailed{
+  width:23px;
+  height:23px;
+  background-repeat: no-repeat;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -555px;
+}
+.ic-warning{
+  width:23px;
+  height:23px;
+  background-repeat: no-repeat;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -5179px;
+}
+.ic_guide_wifi {
+  width:16px;
+  height:16px;
+  margin-top:-4px;
+  vertical-align:middle;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -5205px;
+}
+.ic-logo {
+  background-image: url('../res/atp-icon.png');
+  background-position: left -5224px;
+}
+.ic-huaweilogo {
+  background-image: url('../res/atp-icon.png');
+  background-position: left -5262px;
+}
+.ic-honorlogo {
+  background-image: url('../res/atp-icon.png');
+  background-position: left -5300px;
+}
+.ic_lead_logo {
+  background-image: url('../res/atp-icon.png');
+  background-position: left -5338px;
+}
+.ic_lead_huaweilogo {
+  background-image: url('../res/atp-icon.png');
+  background-position: left -5367px;
+}
+.ic_lead_honorlogo {
+  background-image: url('../res/atp-icon.png');
+  background-position: left -5338px;
+}
+.controls{
+    margin-left: 18px;
+    width:375px;
+    text-align: left;
+    float: left;
+}
+.margin_215px{
+    margin-left:215px !important
+}
+.margin_top{
+    margin-top:100px;
+    color:#595959;
+    font-size:12px;
+    text-align:center;
+    padding:0 60px;
+}
+.text_box{
+    font-size: 14px;
+    float: left;
+    width: 197px;
+    text-align:right;
+    color:#333;
+    line-height: 37px;
+}
+.ic_uncable_h1{
+    background-image:url(../res/ic_uncable_h1.png);
+}
+.ic_uncable_5100{
+    background-image:url(../res/ic_uncable_5100.png);
+}
+.ic_uncable_5102{
+    background-image:url(../res/ic_uncable_5102.png);
+}
+.ic_uncable_pro{
+    background-image:url(../res/ic_uncable_pro.png);
+}
+.ic_uncable_ws7100_20_dark{
+  background-image:url(../res/ic_uncable_ws7100_20_dark.png);
+}
+.ic_uncable_ws7100_20_white{
+  background-image:url(../res/ic_uncable_ws7100_20_white.png);
+}
+.ic_uncable_5200-18{
+  background-image:url(../res/ic_uncable_5200-18.png);
+}
+.ic_uncable_5200-19{
+  background-image:url(../res/ic_uncable_5200-19.png);
+}
+.ic_uncable_5102-18{
+  background-image:url(../res/ic_uncable_5102-18.png);
+}
+.ic_uncable_6500-19{
+  background-image:url(../res/ic_uncable_6500-19.png);
+}
+.ic_uncable_6500-18{
+  background-image:url(../res/ic_uncable_6500-18.png);
+}
+.ic_uncable_6500-17{
+  background-image:url(../res/ic_uncable_6500-17.png);
+}
+.ic_uncable_CD13-10{
+  background-image:url(../res/ic_uncable_CD13-10.png);
+}
+.ic_uncable_s1{
+    background-image:url(../res/ic_uncable_s1.png);
+}
+.ic_uncable_318{
+    background-image:url(../res/ic_uncable_318.png);
+}
+.ic_uncable_6500-11{
+    background-image:url(../res/ic_uncable_6500-11.png);
+}
+.ic_uncable_6500{
+    background-image:url(../res/ic_uncable_6500.png);
+}
+.ic_h1_httpstatusfailed{
+  margin:0 auto;
+  width: 400px;
+  height: 170px;
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-image:url(../res/ic_httpstatusfailed_h1.png);
+}
+.ic_5100_httpstatusfailed{
+  margin:0 auto;
+  width: 400px;
+  height: 170px;
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-image:url(../res/ic_httpstatusfailed_5100.png);
+}
+.ic_5102_httpstatusfailed{
+  margin:0 auto;
+  width: 400px;
+  height: 170px;
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-image:url(../res/ic_httpstatusfailed_5102.png);
+}
+.ic_6500-11_httpstatusfailed{
+  margin:0 auto;
+  width: 400px;
+  height: 170px;
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-image:url(../res/ic_httpstatusfailed_6500-11.png);
+}
+.ic_httpstatusfailed_6500{
+  margin:0 auto;
+  width: 400px;
+  height: 170px;
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-image:url(../res/ic_httpstatusfailed_6500.png);
+}
+.ic_CD13-10_httpstatusfailed{
+  margin:0 auto;
+  width: 400px;
+  height: 170px;
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-image:url(../res/ic_httpstatusfailed_CD13-10.png);
+}
+.ic_pro_httpstatusfailed{
+  margin:0 auto;
+  width: 400px;
+  height: 170px;
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-image:url(../res/ic_httpstatusfailed_pro.png);
+}
+.ic_ws7100_20_dark_httpstatusfailed{
+  margin:0 auto;
+  width: 400px;
+  height: 170px;
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-image:url(../res/ic_httpstatusfailed_ws7100_20_dark.png);
+}
+.ic_ws7100_20_white_httpstatusfailed{
+  margin:0 auto;
+  width: 400px;
+  height: 170px;
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-image:url(../res/ic_httpstatusfailed_ws7100_20_white.png);
+}
+.ic_huawei_httpstatusfailed{
+  margin:0 auto;
+  width: 400px;
+  height: 170px;
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-image:url(../res/ic_httpstatusfailed_huawei.png);
+}
+.ic_5200-18_httpstatusfailed{
+  margin:0 auto;
+  width: 400px;
+  height: 170px;
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-image:url(../res/ic_httpstatusfailed_5200-18.png);
+}
+.ic_5200-19_httpstatusfailed{
+  margin:0 auto;
+  width: 400px;
+  height: 170px;
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-image:url(../res/ic_httpstatusfailed_5200-19.png);
+}
+.ic_5102-18_httpstatusfailed{
+  margin:0 auto;
+  width: 400px;
+  height: 170px;
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-image:url(../res/ic_httpstatusfailed_5102-18.png);
+}
+.ic_6500-19_httpstatusfailed{
+  margin:0 auto;
+  width: 400px;
+  height: 170px;
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-image:url(../res/ic_httpstatusfailed_6500-19.png);
+}
+.ic_6500-18_httpstatusfailed{
+  margin:0 auto;
+  width: 400px;
+  height: 170px;
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-image:url(../res/ic_httpstatusfailed_6500-18.png);
+}
+.ic_6500-17_httpstatusfailed{
+  margin:0 auto;
+  width: 400px;
+  height: 170px;
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-image:url(../res/ic_httpstatusfailed_6500-17.png);
+}
+.ic_s1_httpstatusfailed{
+  margin:0 auto;
+  width: 400px;
+  height: 170px;
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-image:url(../res/ic_httpstatusfailed_s1.png);
+}
+.ic_318_httpstatusfailed{
+  margin:0 auto;
+  width: 400px;
+  height: 170px;
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-image:url(../res/ic_httpstatusfailed_318.png);
+}
+.ic_content_status_huawei{
+  width: 90px;
+  height: 90px;
+  background-image:url(../res/bigicons/ic_content_status_huawei.png);
+}
+.ic_content_status_honor{
+  width: 90px;
+  height: 90px;
+  background-image:url(../res/bigicons/ic_content_status_honor.png);
+}
+.ic_content_status_5100{
+  width: 90px;
+  height: 90px;
+  background-image:url(../res/bigicons/ic_content_status_5100.png);
+}
+.ic_content_status_5102{
+  width: 90px;
+  height: 90px;
+  margin-top: -1px;
+  background-image:url(../res/bigicons/ic_content_status_5102.png);
+}
+.ic_content_status_s1{
+  width: 90px;
+  height: 90px;
+  background-image:url(../res/bigicons/ic_content_status_s1.png);
+}
+.ic_content_status_318{
+  width: 90px;
+  height: 90px;
+  background-image:url(../res/bigicons/ic_content_status_318.png);
+}
+.ic_content_status_6500{
+  width: 90px;
+  height: 90px;
+  background-image:url(../res/bigicons/ic_content_status_6500.png);
+}
+.qrcode_huawei{
+  background-image:url(../res/bigicons/qrcode_renew_huawei.png);
+}
+.qrcode_ws7100_20_dark{
+  background-image:url(../res/bigicons/qrcode_renew_ws7100_20_dark.png);
+}
+.qrcode_ws7100_20_white{
+  background-image:url(../res/bigicons/qrcode_renew_ws7100_20_white.png);
+}
+.qrcode_honor{
+  background-image:url(../res/bigicons/qrcode_renew_honor.png);
+}
+.qrcode_318{
+  background-image:url(../res/bigicons/qrcode_renew_318.png);
+}
+.qrcode_5100{
+  background-image:url(../res/bigicons/qrcode_renew_5100.png);
+}
+.qrcode_5102{
+  background-image:url(../res/bigicons/qrcode_renew_5102.png);
+}
+.qrcode_5200-18{
+  background-image:url(../res/bigicons/qrcode_renew_5200-18.png);
+}
+.qrcode_5200-19{
+  background-image:url(../res/bigicons/qrcode_renew_5200-19.png);
+}
+.qrcode_CD13-10{
+  background-image:url(../res/bigicons/qrcode_renew_CD13-10.png);
+}
+.qrcode_5102-18{
+  background-image:url(../res/bigicons/qrcode_renew_5102-18.png);
+}
+.qrcode_s1{
+  background-image:url(../res/bigicons/qrcode_renew_s1.png);
+}
+.qrcode_6500-11{
+  background-image:url(../res/bigicons/qrcode_renew_6500-11.png);
+}
+.qrcode_renew_6500{
+  background-image:url(../res/bigicons/qrcode_renew_6500.png);
+}
+.qrcode_renew_6500-18{
+  background-image:url(../res/bigicons/qrcode_renew_6500-18.png);
+}
+.qrcode_renew_6500-19{
+  background-image:url(../res/bigicons/qrcode_renew_6500-19.png);
+}
+.qrcode_renew_6500-17{
+  background-image:url(../res/bigicons/qrcode_renew_6500-17.png);
+}
+.wan_setting{
+  width:185px;
+  height:137px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+.show_doublewan{
+  background-image: url(../res/bigicons/doublewan.png);
+}
+.show_singlewan{
+  background-image: url(../res/bigicons/singlewan.png);
+}
+.show_doublewan01{
+  background-image: url(../res/bigicons/doublewan01.png);
+}
+.show_singlewan01{
+  background-image: url(../res/bigicons/singlewan01.png);
+}
+.show_doublewan02{
+  background-image: url(../res/bigicons/doublewan02.png);
+}
+.show_singlewan02{
+  background-image: url(../res/bigicons/singlewan02.png);
+}
+.show_doublewan03{
+  background-image: url(../res/bigicons/doublewan03.png);
+}
+.show_singlewan03{
+  background-image: url(../res/bigicons/singlewan03.png);
+}
+.port_rate01{
+  background-image: url(../res/bigicons/port_rate01.png);
+}
+.port_rate02{
+  background-image: url(../res/bigicons/port_rate02.png);
+}
+.port_rate03{
+  background-image: url(../res/bigicons/port_rate03.png);
+}
+.port_rate04{
+  background-image: url(../res/bigicons/port_rate04.png);
+}
+.port_rate05{
+  background-image: url(../res/bigicons/port_rate05.png);
+}
+.port_rate_ws7200-20{
+  background-image: url(../res/bigicons/port_rate_ws7200-20.png);
+}
+.port_rate_ws7100_20_dark{
+  background-image: url(../res/bigicons/port_rate_ws7100_20_dark.png);
+}
+.port_rate_ws7100_20_white{
+  background-image: url(../res/bigicons/port_rate_ws7100_20_white.png);
+}
+.port_rate_ws5102_18{
+  background-image: url(../res/bigicons/singlewan02.png);
+}
+.port_rate_ws6500_17{
+  background-image: url(../res/bigicons/singlewan03.png);
+}
+.port_rate_cd13_10{
+  background-image: url(../res/bigicons/singlewan01.png);
+}
+.connected{
+  height:168px;
+  width:168px;
+  background-repeat: no-repeat;
+  background-image: url('../res/atp-icon2.png');
+  background-position: left -426px;
+}
+.connectedCss{
+  position: relative;
+  width: 162px;
+  height: 162px;
+  border: 2px solid #afafaf;
+  border-radius: 81px;
+}
+.connectedCss::before{
+  content: "";
+  position: absolute;
+  width: 52px;
+  height: 5px;
+  top: 78px;
+  left: 65px;
+  background-color: #88da33;
+  transform: rotateZ(-43.5deg);
+  transform: rotateZ(-43.5deg);
+  -webkit-transform: rotateZ(-43.5deg);
+  -moz-transform: rotateZ(-43.5deg);
+  -ms-transform: rotateZ(-43.5deg);
+  -o-transform: rotateZ(-43.5deg);
+}
+.connectedCss::after{
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 5px;
+  top: 86px;
+  left: 49px;
+  background-color: #88da33;
+  transform: rotateZ(-135deg);
+  transform: rotateZ(-135deg);
+  -webkit-transform: rotateZ(-135deg);
+  -moz-transform: rotateZ(-135deg);
+  -ms-transform: rotateZ(-135deg);
+  -o-transform: rotateZ(-135deg);
+}
+.connectfailed{
+  height:168px;
+  width:168px;
+  background-repeat: no-repeat;
+  background-image: url('../res/atp-icon2.png');
+  background-position: left -698px;
+}
+.title_line{
+    border-bottom:solid 1px #c9c9c9;
+    color:#000000;
+    font-size:16px;
+    padding:12px 0px;
+    margin:0 36px;
+}
+.repeater_edit{
+  height: 90px;
+  width:585px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-image: url('../res/atp-icon2.png');
+  background-position: left -2966px;
+}
+.repeaterline{
+  height: 2px;
+  width: 125px;
+  margin-top: 14px;
+  background: #28c6c0;
+  z-index: 1;
+}
+.repeater_sucess{
+  display: block;
+  height: 30px;
+  width: 100px;
+  background-repeat: no-repeat;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -5396px;
+}
+.repeater_fail{
+  display: block;
+  height: 30px;
+  width: 100px;
+  background-repeat: no-repeat;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -206px;
+}
+.qappcode{
+  width: 160px; height:160px;
+  background-repeat: no-repeat;
+  overflow: hidden; 
+  position:absolute;right:20px;top:50px;
+  background-image: url('../res/atp-icon2.png');
+  background-position: left -0px;
+}
+.smart_qrcode{
+  margin:0 auto;
+  height:320px;
+  width:320px;
+  display:block;
+  background-repeat:no-repeat;
+  background-image: url('../res/atp-icon2.png');
+  background-position: left -962px;
+}
+.smart_qrcode_custom{
+  margin:0 auto;
+  height:320px;
+  width:320px;
+  display:block;
+  background-repeat:no-repeat;
+  background-image: url('../res/atp-icon2.png');
+  background-position: left -1285px;
+}
+.guide_smartapp{
+  width:709px;
+  height:260px;
+  display:block;
+  position:relative;
+  text-align:left;
+  background-repeat:no-repeat;
+  background-image: url('../res/atp-icon2.png');
+  background-position: left -1871px;
+}
+.guide_smartapp > div:first-child{
+    position:absolute;top:28px;left:205px;width:320px;
+}
+.linkAppStore{
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+#apptip{
+    color: #ffffff;
+    margin-left: 30px;
+}
+#apptip p{
+    margin: 12px 16px 18px 8px;
+    font-size: 16px;
+}
+#apptip ul{
+    font-size: 12px;
+    margin-top: 10px;
+}
+#apptip ul li{
+    margin-top: 10px;
+}
+.qrcode_wechat{
+  display: block;
+  height: 320px;
+  width: 320px;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-image: url('../res/atp-icon2.png');
+  background-position: left -2457px;
+}
+.content_status{
+  margin:85px auto 0;
+  height: 90px;
+  width:825px;
+  font-size: 12px;
+  background-image: url('../res/atp-icon2.png');
+  background-position: left -3059px;
+}
+.content_status_repeater{
+    margin:100px auto 0;
+    height: 90px;
+    width:845px;
+    font-size: 12px;
+  background-image: url('../res/atp-icon2.png');
+  background-position: left -3152px;
+}
+.status_box {
+  width:auto;
+  height:30px;
+  border: 1px solid #F0460E;
+  border-radius: 9px;
+  position: absolute;
+  right:-14px;
+  margin:35px 0 0 -40px;
+  padding:0 20px;
+  font-size:14px;
+  color:#F0460E;
+  line-height:30px;
+  text-align:center;
+  background-color:#fff;
+  white-space: nowrap
+}
+.status_box .triangle {
+  content: "";
+  display: block;
+  border-width:10px;
+  border-style: solid;
+  border-color:transparent;
+  border-top-width: 0;
+  border-bottom-color: #F0460E;
+  position: absolute;
+  right: 25px;
+  top: -10px;
+  margin-right: -10px;
+}
+.status_box .triangle::after {
+  content: "";
+  display: block;
+  border-width:10px;
+  border-style: solid;
+  border-color:transparent;
+  border-top-width: 0;
+  border-bottom-color: white;
+  position: absolute;
+  right: 0px;
+  top: 1px;
+  margin-right: -10px;
+  z-index:10;
+}
+/* components style Begin */
+#menus {
+  width: 220px;
+  min-height: 800px;
+}
+.menu_item {
+  font-size: 14px;
+}
+.menu_item.active {
+  border-bottom: 1px solid #c9c9c9;
+}
+.menu_item .dt {
+  padding: 20px;
+  cursor: pointer;
+  position: relative;
+  font-size: 14px;
+}
+.menu_item .dt:hover, .menu_item li:hover, .menu_item li.active{
+  background-color: #ddd;
+}
+.menu_item li {
+  padding: 18px 0 18px 40px;
+  cursor: pointer;
+  position: relative;
+}
+.menu_item li::before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #BEC2C8;
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-5px);
+  -webkit-transform: translateY(-5px);
+  -o-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+}
+.menu_item li.active::before {
+  background: #28C0C6;
+}
+.menu_item .dt.focus {
+  background-color: #28C0C6;
+  color: #fff;
+}
+.menu_item .dd {
+  height: 100%;
+  overflow: hidden;
+  max-height: 500px;
+}
+.menu_item .fade-enter, .menu_item .fade-leave-to {
+  max-height: 0;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: max-height .7s;
+}
+.ic-menu-arrow{
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-15px);
+  -webkit-transform: translateY(-15px);
+  -o-transform: translateY(-15px);
+  -moz-transform: translateY(-15px);
+  -ms-transform: translateY(-15px);
+}
+.ic-menu_down{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -28px;
+}
+.ic-menu_up{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -5429px;
+}
+.ic-menu_white_down{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -5462px;
+}
+.ic-menu_white_up{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -5495px;
+}
+.thirdTitleContent .helpInfo h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 3px;
+  width: 23px; height: 23px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -1907px;
+}
+
+.select_box .info_show::after {
+  right: 0
+}
+.select_box .scroll_box .scroll_bar::after {
+  left: 6px;
+}
+
+.thirdTitleContent .helpDesc > ul > li ul, .thirdTitleContent ol {
+  margin-left: 25px;
+}
+
+.check-box span.limit-length {
+  position: absolute;
+  top: 0;
+  left: 25px;
+  right: 0;
+}
+/* components style End */
+#introduceField li{
+  list-style: none;
+  width: 250px;
+  margin-left:85px;
+}
+#introduceField li{
+  list-style: none;
+  width: 195px;
+  margin-left:0;
+}
+.test_swan{
+  height:275px;
+  color:#5A5A5A;
+  font-size: 14px;
+  margin: 130px 30px 0;
+}
+.test_swan .load_img{
+  width: 79px;
+  height:79px;
+  background-image: url(../res/loading.gif);
+}
+.test_swan .load_tip{
+  margin-top: 20px;
+}
+/* topology Begin*/
+.Topology .normalTwo {
+  margin-right: 120px;
+}
+/* topology End */
+.forgetps{
+  width: 100%;
+  height:21px;
+  line-height: 21px;
+  margin-top: 8px;
+  font-size: 14px;
+  color: #28c0c6;
+  cursor: pointer;
+  display: inline-block;
+}
+.forgetps_box{
+  width: 100%;
+  height:100%;
+  position: fixed;
+  top:0;
+  left:0;
+  background: rgba(00,00,00,0.5);
+  z-index: 101;
+}
+.forgetps_content{
+  width: 480px;
+  background: #fff;
+  position: fixed;
+  top:50%;
+  left:50%;
+  margin-top: -240px;
+  margin-left: -240px;
+  border-radius: 5px;
+  text-align: center;
+  color:#272727;
+  font-size: 14px;
+}
+.forgetps_content .forgetps_img{
+  width: 310px;
+  height: 190px;
+  margin: 20px auto 10px;
+  background-repeat: no-repeat;
+}
+.forgetps_content .message_1{
+  margin:0 75px 5px;
+  color: #262636;
+}
+.forgetps_content .message_2{
+  margin:0 75px 20px;
+  color: #fa0a0d;
+}
+.forgetps_content .knowbtn{
+  width: 176px;
+  height:44px;
+  line-height: 44px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.login_leader_border{
+  border-top-right-radius:8px;
+  border-bottom-right-radius:8px;
+}
+ .InputContent > div:first-child,.switchbutton_box > div:first-child{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+  line-height:1;
+  width: 197px;
+  float: none;
+}
+.InputContent > div:last-child,.switchbutton_box > div:last-child{
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 20px;
+  float: none;
+}
+.InputContent .inputBox .eye{
+  left: 250px;
+}
+#userpassword{
+  padding-left:0px;
+}
+.ipv6 #address,.ipv6 #addrlength{
+  padding-left:0px;
+}
+#lan #miniprange,#lan #maxiprange,.devicesList .rateEdit .inputBox{
+  padding-left:0px;
+}
+.Wifi_container .InputContent,.wifisetting .InputContent,.wanconfig .InputContent,.learnppp .InputContent{
+  margin-left:-120px;
+}
+.useraccount .InputContent{
+  margin-left:-70px;
+}
+.wifidmz_tablecell{
+  display: table-cell;
+  vertical-align: middle;
+  line-height: 1;
+  float: none;
+  padding-top: 10px;
+  left: 18px;
+}
+.tipInfo {
+  margin-top:21px;
+  font-size:12px;
+  color:#595959;
+}
+.ic_router_hi_huawei{
+  width: 37px;
+  height: 37px;
+  margin-left:22px;
+  margin-right:26px;
+  background-image: url(../res/bigicons/ic_router_hi_huawei.png);
+}
+.ic_router_hi_honor{
+  width: 37px;
+  height: 37px;
+  margin-left:22px;
+  margin-right:26px;
+  background-image: url(../res/bigicons/ic_router_hi_honor.png);
+}
+.TR069 .InputContent > div:first-child{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+  width: 197px;
+  float: none;
+}
+.TR069 .InputContent > div:last-child{
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 20px;
+  float: none;
+}
+.TR069 .InputContent .inputBox .eye{
+  left: 250px;
+}
+.power_weak_tip {
+  background-image: url(../res/icons/power_weak_tip.png);
+}
+.power_tip {
+  background-image: url(../res/icons/power_tip.png);
+}
+.poweroff_bigTip{
+  background-image: url(../res/icons/poweroff.png);
+}
+.ic_small_warn{
+  background-image: url(../res/icons/ic_small_warn.png);
+}
+/* guide BEGIN */
+#index {
+    background-color: #f7f7f7;
+}
+#index .guideleadfooter{
+    margin-top: 0;
+    background-color:#436aaa;
+}
+#index .guideleadfooter h3{
+    opacity:0.8;
+    color: #ffffff;
+}
+#index .guideleadfooter #productAbout a {
+    color: #ffffff;
+    opacity:0.6;
+}
+#index .guideleadfooter #copyrightHuawei p{
+    color: #ffffff;
+    opacity:0.6;
+    padding-top: 16px;
+}
+/* guide END */
+/* index BEGIN */
+#index {
+    background-color: #f7f7f7;
+}
+#index .isNotLogin{
+    padding-top: 23px;
+    margin-top:0;
+}
+#index .loginleadfooter{
+    margin-top: 0;
+    background-color:#436aaa;
+}
+#index .loginleadfooter h3{
+    opacity:0.8;
+    color: #ffffff;
+}
+#index .loginleadfooter #productAbout a{
+    color: #ffffff;
+    opacity:0.6;
+}
+#index .loginleadfooter #copyrightHuawei p{
+    color: #ffffff;
+    opacity:0.6;
+    padding-top: 16px;
+}
+/* index END */
+/* checkbox BEGIN */
+.check-box{
+    display: inline-block;
+    position: relative;
+}
+.check-box span{
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 21px;
+}
+.check-box label{
+    display: table-cell;
+    vertical-align: middle
+}
+.check-box label i {
+    display: block
+}
+/* checkbox END */
+/* checkRadio BEGIN */
+.checkOne{
+    display: inline-block;
+}
+.checkOne img{
+    width: 18px;
+    height:18px;
+    margin-right: 10px;
+    float: left;
+    margin-top: 1px;
+    cursor: pointer;
+}
+.checkOne p{
+    line-height: 20px;
+    color: #262626;
+    display: table-cell;
+}
+.checkOne div{
+    font-size: 14px;
+    color: #a3a3a3;
+    margin-left: 30px;
+}
+/* checkRadio END */
+/* footer BEGIN */
+    #footer{
+        width:100%;
+        height: 214px;
+        min-width:1000px;
+        background-color: #e7e7e7;
+        margin-top: 100px;
+    }
+
+    #footer .footerCover{
+        position:fixed;
+        left:0;top:0px;
+        background-color:rgba(00,00,00,.5);
+        z-index:100;
+        width:100%;
+        height:100%;
+        text-align: center;
+        z-index: 1000;
+    }
+    #footer .whiteBox{
+        width: 629px;
+        background-color: #fff;
+        border-radius: 5px;
+        border:1px solid #c9c9c9;
+        position:absolute;
+        left: 50%;
+        top: 50%;
+        margin:-250px 0 0 -315px 
+    }
+    #footer .rumatTitle{
+        height: 90px;
+        line-height: 90px;
+        text-align: center;
+        font-size: 22px;
+    }
+    #footer .rumatPic{
+        height: 320px;
+        padding-top:20px;
+        border-top: 1px solid #595959;
+    }
+    #footer .slogan{
+        line-height: 36px;
+        font-size: 14px;
+        padding: 0 10px;
+        color: #272727;
+    }
+    #footer .detail{
+        height: 20px;
+        line-height: 20px;
+        font-size: 12px;
+        color: #5a5a5a;
+    }
+    #productAbout{
+        width: 1000px;
+        margin:0 auto;
+        padding-top: 34px;
+        height: 146px;
+    }
+    #introduceField h3{
+        font-size: 14px;
+        font-weight: normal;
+        margin-bottom: 6px;
+    }
+    #introduceField p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    #introduceField a{
+        text-decoration: none;
+        color: #595959;
+        cursor:pointer;
+    }
+    #introduceField li a:hover{
+        color: #28c0c6;
+        text-decoration: underline;
+    }
+    #copyrightHuawei{
+        height: 40px;
+        text-align: center;
+        margin:0 auto;
+    }
+    #copyrightHuawei p{
+        display: inline-block;
+        font-size: 12px;
+        color: #A5A5A5;
+    }
+/* footer END */
+/* head BEGIN */
+.header {
+  height: 65px;
+  background-color: white;
+}
+.header .wordSize{
+  font-size: 12px;
+  text-align: center
+}
+.commonLogo{
+  width: 146px;
+  margin-top: 10px;
+  height: 36px;
+}
+.doubleLogo{
+  width: 200px;
+  margin-top: 16px;
+  height: 36px;
+}
+.productname {
+  margin-top: 16px;
+  font-size: 22px;
+  color: #262626;
+  width:400px;
+  white-space: nowrap;
+}
+.logout {
+  font-size: 12px;
+  margin-top: 24px;
+  color: #595959;
+  cursor: pointer;
+}
+.logout:hover {
+  color: #28c0c6;
+}
+.guidelead_title .mobileOrPc,.loginlead_title .mobileOrPc{
+  height: 28px;
+  line-height: 28px;
+  width: 60px;
+  margin-top: 18px;
+  font-size: 12px;
+  color:#ffffff;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #ffffff;
+}
+.header .mobileOrPc{
+  height: 28px;
+  line-height: 28px;
+  width: 60px;
+  margin-top: 18px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #595959;
+}
+.header .Super_mobileOrPc{
+  height: 28px;
+  line-height: 28px;
+  width: 120px;
+  margin-top: 18px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #595959; 
+}
+.header .select_box .info_show {
+  padding-left: 18px;
+}
+.header .selectLang .select_list > li:first-child {
+  direction: ltr;
+}
+/* head END */
+#wlanguest_view_data_edit_wlanguest_speedlimit{
+  margin-left:215px;
+}
+#wlanguest_view_data_edit_wlanguest_speedlimit .unit{
+  margin-left:3px;
+}
+/* input BEGIN */
+.InputComponent .inputArea {
+    border: 1px solid #c9c9c9;
+    border-radius: 8px;
+    font-size: 14px;
+    box-sizing: border-box
+}
+.InputComponent.customWidth {
+    display: inline-block;
+    margin: 0 5px;
+}
+.InputComponent .InputDesc {
+    margin-top: 0;
+    height: auto;
+    min-height: 37px;
+    word-break: break-all;
+}
+.InputComponent .InputDesc > div {
+    font-size: 12px;
+    color: #595959;
+    line-height: 16px;
+    margin-top: 12px;
+}
+.InputComponent .InputError {
+    margin-top: 0;
+    height: auto;
+    min-height: 37px;
+    overflow: hidden;
+}
+.InputComponent .InputError > div, .InputComponent .InputPswStrong > div {
+    line-height: 16px;
+}
+.InputComponent .InputPswStrong .pswStrongList {
+    margin-top: 12px;
+    position: relative;
+    font-size: 0;
+}
+.InputComponent .InputPswStrong .pswStrongList li {
+    display: inline-block;
+    width: 38px;
+    height: 3px;
+    background-color: rgb(209, 209, 209);
+}
+.InputComponent .InputPswStrong .pswStrongDesc {
+    color: #3f3f3f;
+    font-size: 12px;
+    margin-top: 8px;
+}
+.InputComponent .unit {
+    font-size: 12px;
+}
+.InputComponent.customWidth input {
+    text-align: center
+}
+.InputComponent .InputContent .inputBox {
+    position: relative;
+}
+.InputComponent .InputContent .inputBox .eye {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    top: 5px;
+    cursor: pointer;
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -o-user-select:none;
+    user-select:none;
+}
+.InputComponent .InputContent .inputBox .eye > div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -o-user-select:none;
+    user-select:none;
+}
+/* input END */
+/* loadingView BEGIN */
+.loading {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.3);
+    z-index: 10000;
+}
+.loading_content {
+    width: 480px;
+    background-color: #eee;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #444;
+}
+.loading_content .loading_box {
+    position: relative;
+    padding: 25px 0;
+    min-height: 61px;
+}
+.loading .loading_cancel {
+    margin-top: 20px;
+    padding: 0 40px;
+}
+.loading .loading_title {
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    border-bottom: 1px solid #ccc;
+}
+.loading_word {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0 20px;
+    min-height: 61px;
+    height: 61px;
+    width: 340px;
+    position: relative;
+    display: table;
+    color: #595959;
+}
+.loading_box.timer .loading_word {
+    width: 100%;
+    min-height: auto;
+    margin-top: 10px;
+    text-align: center
+}
+.loading_box .loading_word > p {
+    display: table-cell;
+    vertical-align: middle;
+}
+.loading_box .loading_gif {
+    width: 61px;
+    height: 61px;
+    background: url(../res/loading.gif) no-repeat;
+    background-size: contain;
+    display: table
+}
+.loading_box .loading_gif .loading_time {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.loading_box.default .loading_gif, .loading_box.cancel .loading_gif {
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+}
+.loading_box.timer .loading_gif {
+    margin: 0 auto;
+}
+.loading .loading_button .button {
+    display: block;
+    margin: 20px auto 37px;
+}
+/* loadingView END */
+/* nav BEGIN */
+#nav {
+    height: 180px;
+    background-size: contain;
+    position: relative;
+}
+#nav .bg {
+    position: absolute;
+    width: 100%;
+    height: 110px;
+    top: 0;
+    left: 0;
+    min-width: 1000px;
+    z-index: 1;
+}
+#nav .container {
+    position: absolute;
+    z-index: 2;
+    min-width: 885px;
+    height: 100%;
+    color: #fff;
+}
+#nav .container ul {
+    height: 180px;
+    overflow: hidden;
+}
+/* nav END */
+/* navItem BEGIN */
+li.nav_item {
+    min-width:118px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 33px;
+    color: #acc4d5;
+}
+li.nav_item.active {
+    font-size: 20px;
+    margin-top: 18px;
+    color: #fff;
+}
+li.nav_item.press {
+    color: #28c0c6;
+    cursor: pointer;
+}
+li.nav_item.disable .nav_title{
+    height: 16px;
+} 
+.nav_item div {
+    background-repeat: no-repeat;
+}
+.nav_item .big_icon {
+    width:122px;
+    height:122px;
+    background-repeat: no-repeat;
+    display: block;text-decoration:none;outline:none;
+    background-color:transparent;
+    margin: 0 auto;
+    margin-top: 9px;
+}
+.nav_item .small_icon {
+    width:48px;
+    height:48px;
+    cursor:pointer;
+    background-repeat: no-repeat;
+    display: block;text-decoration:none;outline:none;
+    background-color:transparent;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+/* navItem END */
+/* popWin BEGIN */
+.PopWin {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 10000;
+}
+.PopWin .PopWin_box {
+    background-color: #fff;
+    border-radius: 8px;
+}
+.PopWin .PopWin_box div.popWin_title {
+    height:96px;
+    line-height:4.5;
+    font-size:22px;
+    color:#262626;
+    text-align:center;
+    font-weight: 400;
+    border-bottom:solid 1px #c9c9c9;
+    padding: 0 15px;
+}
+.PopWin .PopWin_box.smallType div.popWin_title {
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    color: #595959;
+}
+.PopWin .PopWin_box .PopWin_buttons {
+    margin: 60px auto 50px;
+    overflow: hidden;
+}
+.PopWin .PopWin_box.smallType .PopWin_buttons {
+    margin: 40px auto 35px;
+}
+.PopWin .pop_absolute_center {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+}
+/* popWin END */
+/* radio BEGIN */
+.radio ul{
+    float: left;
+}
+/* radio END */
+/* scroller BEGIN */
+.Scroller {
+    overflow: hidden;
+    position: relative;
+}
+.Scroller .scroller_container {
+    overflow: auto;
+}
+.Scroller .scroll_box {
+  position: absolute;
+  width: 16px;
+  top: 0;
+  z-index: 550;
+}
+.Scroller .scroll_box .scroll_bar {
+  width: 100%;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+}
+.Scroller .scroll_box .scroll_bar::after {
+  content: "";
+  width: 4px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 6px;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.Scroller .scroll_bar.active::after {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+/* scroller END */
+/* selectbox BEGIN */
+.select_box .info_show {
+  min-height: 35px;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -ms-text-overflow: ellipsis;
+}
+.select_box.disable {
+  border-color: rgba(201,201,201,0.3);
+  cursor: default;
+}
+.select_box .info_show::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  width: 30px; height: 30px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -28px;
+}
+.select_box.disable .info_show::after {
+  display: none;
+}
+.select_box {
+  background-color: #fff;
+  position: relative;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.select_box .list_fixed {
+  background-color: #fff;
+  border-radius: 8px;
+  position: absolute;
+  transform: none;
+  z-index: 510;
+  width: 100%;
+  top: 100%;
+  left: -1px;
+  margin-top: 1px;
+  overflow: hidden;
+}
+.select_box .select_list {
+  height: 100%;
+  overflow: auto;
+}
+.select_box .select_list li {
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -ms-text-overflow: ellipsis;
+}
+.select_box .select_list li.active {
+  background-color: #eee;
+}
+.select_box .select_list li:hover {
+  background-color: #28c0c6;
+  color: #fff;
+}
+.select_box .scroll_box {
+  position: absolute;
+  width: 16px;
+  top: 100%;
+  z-index: 520;
+}
+.select_box .scroll_box .scroll_bar {
+  width: 100%;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+}
+.select_box .scroll_box .scroll_bar::after {
+  content: "";
+  width: 4px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.scroll_box .scroll_bar.active::after {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.select_box .model_layer {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+/* selectbox END */
+/* thirldTitleContent BEGIN */
+.thirdTitleContent {
+    padding: 15px 50px;
+    border-bottom: 1px solid #c9c9c9;
+    color: rgb(89,89,89)
+}
+.thirdTitleContent h2{
+    font-size: 24px;
+    color: #262626;
+    margin: 35px 0;
+    font-weight: 400;
+}
+.thirdTitleContent .description {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 28px;
+}
+.thirdTitleContent .helpInfo {
+    margin-bottom: 10px;
+}
+.thirdTitleContent .helpInfo h3{
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: underline;
+    line-height: 30px;
+    height: 30px;
+    position: relative;
+}
+.thirdTitleContent .helpInfo h3 span {
+    cursor: pointer;
+}
+.thirdTitleContent .helpDesc {
+    font-size: 12px;
+    padding: 10px 0;
+}
+.thirdTitleContent .helpDesc ul li {
+    list-style: disc;
+}
+.thirdTitleContent ol li {
+    list-style: decimal
+}
+.thirdTitleContent ol {
+    margin: 0;
+    padding: 0;
+}
+.thirdTitleContent .helpDesc > ul > li ul, .thirdTitleContent ol {
+    margin-left: 25px;
+}
+/* thirldTitleContent END */
+/* deviceinfo BEGIN */
+.Deviceinfo {
+    margin-bottom: 80px;
+}
+/* deviceinfo END */
+/* devices BEGIN */
+.Devices .devicesContainer{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+.Devices .imgContainer{
+    width: 80px;
+    height: 80px;
+    margin: 24px 36px 0 16px;
+    position: relative;
+}
+.Devices .imgContainer .bigLogo {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.Devices .imgContainer .middleLogo {
+    width: 72px; height: 72px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    top: 11px;
+    left: 11px;
+}
+.Devices .imgContainer .smallLogo {
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    bottom: 0;
+    background-repeat: no-repeat;
+}
+.Devices .show_way {
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    background-color: #28C0C6;
+    color: #fff;
+    padding: 5px 90px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+.Devices .ic_device{
+  width:16px;
+  display:inline-block;
+  vertical-align:middle
+}
+.Devices .device_Acname{
+ max-width:90px;
+ line-height:16px;
+ display:inline-block;
+ vertical-align:middle
+}
+/* devices END */
+/* diagnose BEGIN */
+.diagnose .zh_title{
+    width: 20px;
+    padding: 0 40px;
+}
+.diagnose .en_title{
+    width: 110px;
+    text-align:center;
+}
+/* diagnose END */
+/* dlna BEGIN */
+.dlna .check_info{
+    margin: 0;
+    line-height: 16px;
+    font-size: 12px;
+    color: #595959;
+}
+/* dlna END */
+/* busynessTel BEGIN */
+.busynessTel{
+    width: 100%;
+    height:100%;
+    position: fixed;
+    left: 0;
+    top:0;
+    background: rgba(00, 00, 00, .5);
+}
+.busyness_tel_box{
+    width: 692px;
+    height:520px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-top: -240px;
+    margin-left: -346px;
+    background: #fff;
+    border-radius: 10px;   
+    overflow: hidden; 
+}
+.busynss_title{
+    font-size: 18px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #d9d9d9;
+}
+.busyness_tel_box .ul_box{
+    width: 400px;
+    height: 300px;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #000;
+    border:2px solid #d9d9d9;
+    box-sizing: border-box;
+}
+.busyness_tel_box .ul_box ul{
+    width: 195px;
+    display: inline-block;
+}
+.busyness_tel_box .ul_box li{
+    width: 196px;
+    height:28px;
+    line-height: 27px;
+    border-bottom: 2px solid #d9d9d9;
+}
+.busyness_tel_box .ul_box ul li:first-child{
+    background: rgb(239,239,239)
+}
+.busyness_tel_box .ul_box ul:nth-child(2) li{
+    border-right:none;
+    border-left: none;
+}
+.busyness_tel_box .ul_box ul:nth-child(1) li{
+    border-right: 2px solid #d9d9d9;
+}
+.busyness_tel_box .ul_box ul li:last-child{
+    border-bottom:none;
+}
+.busyness_tel_box .return{
+    width: 176px;
+    height:44px;
+    line-height: 44px;
+    margin: 40px 0;
+}
+/* busynessTel END */
+/* finish BEGIN */
+.finish .connectsuccessinfo{
+    padding-top:18px;font-size:14px;color:#595959;margin:0 40px;
+}
+.finish .connectsuccessinfo table{
+    color:#242424;font-size:18px;text-align:center;
+}
+.finish .connectsuccessinfo > span{
+    font-size:14px;color: #242424;
+}
+.finish #upg_progress{
+    padding:30px 0;
+}
+.finish #upg_progress > div:first-child{
+    margin-bottom:10px;font-size:15px;color:#545454;width:450px;
+}
+/* finish END */
+/* guidesetup BEGIN */
+.guidesetup {
+    margin-bottom: -100px;width: 100%;min-width: 1000px;
+}
+.guidesetup #guidetop {
+    height: 215px;width: 100%;min-width: 1000px;position: relative;
+}
+.guidesetup .guidebgimg{
+    right: 0px;bottom: 0px;top:0px;position: absolute;left: 0px;height:215px;width: 100%;min-width: 1000px;
+ }
+.guidesetup #guide_title{
+    font-size: 30px;
+    color: white;
+    position: relative;
+    padding-top: 30px;
+}
+.guidesetup .setupcontent {
+    min-height: 300px;
+    padding: 50px 0;
+}
+/* guidesetup END */
+/* learn BEGIN */
+.learn_title{
+    margin-top: 42px;
+    height:32px;
+    font-size: 16px;
+    font-weight: bold;
+    color:#333;
+}
+.nextStep{
+    margin-top: 30px;
+    width: 263px;
+    height:50px;
+    background: #28C0C6;
+    color:#fff;
+}
+.learnold_return{
+    display: inline-block;
+    margin:15px 0 11px;
+    color:#28C0C6;
+    height:21px;
+    line-height:21px;
+    font-size: 16px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.router_getting_box{
+    margin:70px 0 80px;
+    height:30px;
+}
+.router_getting_box img{
+    margin-top: -5px;
+    vertical-align: middle;
+}
+.router_getting_box .gitting_tip{
+    margin:0;
+    display: inline-block;
+    color:#656565;
+    height:30px;
+    line-height: 30px;
+}
+.learnold_fail_box{
+    width: 350px;
+    color:#595959;
+    padding-top: 20px;
+}
+.learnold_fail_box div{
+    width: 330px;
+}
+.router_connect{
+    padding-top: 10px;
+    height:19px;
+}
+.router_connect div{
+    display: inline-block;
+    color:#656565;
+    font-size: 14px;
+    line-height: 19px;
+}
+.learndhcp{
+    margin-top: 50px;
+    padding:30px 30px 0;
+    border-top: 1px solid #c9c9c9;
+}
+.learndhcp .wantypedhcp{
+    padding-bottom: 15px;
+}
+.learnppp{
+    margin-top: 62px;
+}
+.learn_step7 img{
+    width: 79px;
+    height:79px;
+    margin-top: 142px;
+    margin-bottom: 20px;
+}
+.learn_step7 div{
+    font-size: 14px;
+    color: #5a5a5a;
+    margin:0 30px 168px;
+}
+/* learn END */
+/* learnProcess BEGIN */
+.learnProcess{
+    width: 100%;
+}
+.learnProcess img{
+    width: 500px;
+    height:200px;
+}
+.learnProcess .tipWord_1{
+    margin: 10px 30px 0;
+    color:#656565;
+    font-size: 14px;
+    line-height: 19px;
+}
+.learnProcess .tipWord_2{
+    margin: 30px 30px 0;
+    color:#656565;
+    font-size: 16px;
+    line-height: 21px;
+}
+.learnProcess .tipWord_3{
+    margin: 10px 30px 0;
+    font-size: 16px;
+    color: rgba(101,101,101,0.7)
+}
+/* learnProcess END */
+/* restore BEGIN */
+.restore .control-group{
+    margin-top: 52px;
+}
+.restore .control-group .enable{
+    width: 200px;
+    font-size: 16px;
+    color:#3f3f3f;
+}
+.restore .restore_tip{
+    font-size: 12px;
+    color:#595959;
+    margin-top: 12px;
+    width: auto;
+}
+.restore .wifiPower{
+    width: 197px;
+    font-size: 14px;
+    color:#333;
+    line-height: 37px;
+}
+.mode_container > div > div {
+    width:100%;margin-bottom: 10px;
+}
+.restore .PopWin .PopWin_box .popWin_title{
+    color: #000!important;
+}
+.restore .wall_notice{
+    margin-top: 40px;
+    color: rgba(00, 00, 00, 0.85);
+    font-size: 14px;
+}
+.restore .PopWin .PopWin_box.smallType .PopWin_buttons > div:last-child{
+    background: #28C0C6;
+    color: #fff;
+}
+/* restore END */
+/* uncabled BEGIN */
+.connect_uncabled .uncabled_box{
+    width: 400px;
+    height: 170px;
+    background-repeat:no-repeat;
+    margin-top: 12px;
+}
+.connect_uncabled .connectcat{
+    opacity: 0.8;
+    font-size: 16px;
+    width: 205px;
+    height:21px;
+    line-height: 21px;
+    margin-bottom: 40px;
+    margin-left: -243px;
+}
+.connect_uncabled .connectline{
+    color:#333;
+    font-size: 18px;
+    width: 480px;
+    height:24px;
+    line-height: 24px;
+}
+.connect_uncabled .connect_tip{
+    width: 400px;
+    margin-top: 15px;
+    font-size: 14px;
+}
+.connect_uncabled .restest,.connect_uncabled .Repeater{
+    width: 176px;
+    height:45px;
+    line-height:45px;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+.connect_uncabled .process_wifi{
+    color: #595959;
+    margin: 30px 30px 0;
+    font-size: 12px;
+}
+.connect_uncabled .Repeater{
+    margin-top: 16px;
+}
+.connect_uncabled .diagnose_override{
+    margin: 12px 30px;
+    font-size: 12px;
+}
+.connect_uncabled a{
+    color:#3FBFC5;
+    cursor: pointer;
+    text-decoration: underline;
+}
+/* uncabled END */
+/* unsure BEGIN */
+.connect_type_1 .type_1_tip,.connect_type_2 .type_2_tip{
+    padding:20px 30px;
+    color: #3f3f3f;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+.router_connect{
+    padding-top: 10px;
+    direction: initial;
+}
+.router_connect div{
+    display: inline-block;
+    color:#656565;
+    font-size: 14px;
+    line-height: 19px;
+}
+.learnold{
+    box-sizing: border-box;
+    margin-top: 60px;
+    margin-bottom: 22px;
+}
+#unsure .connect_type_2{
+    height:180px;
+    width: 705px;
+    border: 1px solid #c9c9c9;
+    border-radius: 20px;
+    margin-top:40px;
+}
+.connect_type_2 .handset{
+    margin: 30px 0 29px;
+    box-sizing: border-box;
+}
+/* unsure END */
+/* useraccount BEGIN */
+.useraccount .usercontent{
+    margin-top: 35px;
+    font-size: 14px;
+}
+.account .newpwd_tip{
+    font-size:12px;
+    color:#595959;
+    width:400px;
+    line-height:18px;
+    margin-top:5px;
+}
+/* useraccount END */
+/* wantype BEGIN */
+.wantype #wantypeconfig {
+    height: 100px;
+}
+.wantype .guide_type_title {
+    font-size: 16px;
+    color: #3f3f3f;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.wantype .wansubmit{
+    margin:60px 0 15px;
+}
+.wantype .ignor {
+    font-size:16px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: underline;
+    color: #28C0C6;
+}
+.wantype .ppphelpinfo {
+    display: inline-block;
+    color:#595959;font-size:12px;
+    margin-top: 10px;line-height: 16px;
+    height: 16px;width:100%;
+}
+.wantype .ppphelpinfo > div{
+    width: 400px;
+}
+.wantype .guangmao{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 40px;
+}
+.wantype .wanportfail {
+    position: absolute;
+    top: 33px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.wantype .popback{
+    width: 176px;
+    height: 44px;
+    line-height: 44px;
+    margin-bottom: 30px;
+}
+.wantype .bridgeTitle{
+    margin: 30px 0 25px 0;
+}
+.wantype .bridgeStep{
+    margin: 15px 0 15px 5px;
+    font-size: 14px;
+}
+.wantype .bridgeNoWanLan{
+    font-size: 12px;
+    color:#595959;
+}
+.wantype .control-group .restore_tip{
+    font-size: 12px;
+    color:#595959;
+    padding-top:16px;
+    padding-bottom:30px;
+}
+/* wantype END */
+/* wlansetting BEGIN */
+.wlansetting{
+    font-size: 14px;
+    color: #333;
+    min-height:405px;
+}
+.wifisetting .setting_title,.repeater_wifi .setting_title{
+    margin: 48px 0 35px;
+    font-size: 18px;
+    height:32px;
+    line-height: 32px;
+    color:#333;
+}
+.wifisetting .switchbutton_box .enable{
+    font-size: 14px;
+}
+.wifisetting .wifisetting_tip{
+    width: 375px;
+    color:#595959;
+    font-size: 12px;
+    margin-top:12px;
+    margin-bottom:12px;
+}
+.wifisetting .safe_tip{
+    color:#595959;
+    margin-top: 5px;
+    width: 375px;
+}
+.wifisetting .pwdcheck{
+    width: 375px;
+    height:37px;
+}
+.wlansetting .wifiset_btn{
+    margin:30px 0;
+    width: 176px;
+    height:44px;
+    line-height: 44px;
+}
+.wifisetting .newControbox{
+    margin-top: 12px
+}
+.wifisetting .powerinwlanset{
+    margin-top:30px;
+    border-top: 1px solid #c9c9c9;
+    min-height:200px;
+    margin-left:-50px;
+}
+.wifisetting .table{
+    font-size:14px;
+    color: #333;
+    height: auto;
+}
+.wifisetting .guidewifi5_table_cell{
+    display:table-cell!important;
+    vertical-align:middle;
+}
+/* wlansetting END */
+/* home BEGIN */
+.home{
+    position: relative;
+}
+.home_content{
+    width:1000px;
+    margin:0 auto 30px;
+    text-align: center;
+    position: relative;
+}
+.router_wan{
+    width: 285px;
+    height:84px;
+    position: relative;
+    cursor: pointer;
+}
+.router_wan .router_wan_line{
+    width: 125px;
+    height:2px;
+    background: #28c6c0;
+    position: absolute;
+    top:44px;
+}
+.repeater_connect{
+    width: 145px;
+    height:38px;
+    position: absolute;
+    top:0;
+    margin-top: 27px;
+    background-repeat: no-repeat;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -61px;
+}
+.router_wan .router_up_speed{
+    width: 150px;
+    position: absolute;
+    top:12px;
+}
+.router_wan .router_up_speed i{
+    display: block;
+    width: 23px;
+    height:23px;
+    background-repeat: no-repeat;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -102px;
+}
+.router_wan .router_up_speed span{
+    display: block;
+    font-size: 24px;
+    font-weight: 500;
+    height:24px;
+    line-height: 24px;
+    color:#595959;
+}
+.router_wan .router_up_speed em{
+    font-size: 12px;
+    font-style: normal;
+    color: #7f7f7f;
+    margin-top: 6px;
+}
+.router_wan .router_down_speed{
+    width: 150px;
+    position: absolute;
+    top:52px;
+}
+.router_wan .router_down_speed i{
+    display: block;
+    width: 23px;
+    height:23px;
+    background-repeat: no-repeat;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -128px;
+}
+.router_wan .router_down_speed span{
+    display: block;
+    font-size: 24px;
+    font-weight: 500;
+    height:24px;
+    line-height: 24px;
+    color:#595959;
+}
+.router_wan .router_down_speed em{
+    font-size: 12px;
+    font-style: normal;
+    color: #7f7f7f;
+    margin-top: 6px;
+}
+.router_wan p{
+    width: 145px;
+    position: absolute;
+    top:65px;
+    color:#7f7f7f;
+}
+.router_more{
+    width: 90px;
+    height:90px;
+    position: relative;
+}
+.content_status .router_more{
+    cursor: pointer;
+}
+.router_usb_line{
+    width: 228px;
+    height:90px;
+    position: absolute;
+    top:-100px;
+    cursor: pointer;
+}
+.router_usb_line p{
+    width: 228px;
+    height:2px;
+    background: #28c6c0;
+    position: absolute;
+    top: 37px;
+    left: 0;
+}
+.router_usb_line span{
+    display: block;
+    width: 50px;
+    height:24px;
+    font-size: 16px;
+    color:#595959;
+    line-height: 24px;
+    background: #f7f7f7;
+    z-index:10;
+    position: absolute;
+    top: 25px;
+    left: 94px;
+}
+.router_usb_line .usb_device_hover{
+    display: none;
+    width: 150px;
+    height:44px;
+    padding-top: 12px;
+    background: #28c6c0;
+    position: absolute;
+    top:-2px;
+    border-radius: 5px;
+    font-size: 12px;
+    color:#fff;
+}
+.router_usb_line .usb_device_hover div b{
+    display: block;
+    min-width: 75px;
+    height:16px;
+    line-height: 16px;
+    font-weight: normal;
+}
+.router_usb_line .usb_device_hover div i{
+    display: block;
+    height:16px;
+    line-height: 16px;
+    font-style: normal;
+}
+.router_usb_line:hover .usb_device_hover{
+    display: block;
+}
+.router_wifi{
+    width: 150px;
+    height:122px;
+    position: relative;
+    transform: translateY(-10px);
+    z-index: 1000;
+}
+.wifi_24g{
+    width: 100%;
+    height:23px;
+    background-repeat: no-repeat;
+    position: relative;
+    cursor: pointer;
+}
+.wifi_24g_able{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -154px;
+}
+.wifi_24g_disable{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -180px;
+}
+.wifi_24g_box{
+    width: 125px;
+    height:47px;
+}
+.wifi_24g_hover{
+    display: none;
+    width: 115px;
+    padding: 5px;
+    border-radius: 5px;
+    background: #28c6c0;
+    color:#fff;
+    position: absolute;
+    bottom: 34px;
+    left:0;
+    font-size: 12px;
+    word-wrap:break-word;
+    word-break: break-word;
+}
+.wifi_24g_box:hover .wifi_24g_hover{
+    display: block;
+}
+.wifi_24g_hover::after{
+    content:"";
+    position:absolute;
+    bottom: -12px;
+    left:57px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-top-color:#28c6c0;
+}
+.tip_24g{
+    width: 125px;
+    height:24px;
+    color:#7f7f7f;
+    line-height: 24px;
+}
+.wifi_lan{
+    width: 125px;
+    height:20px;
+    font-size: 12px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 4px;
+    cursor: default;
+}
+.home_content .content_status .wifi_lan{
+    cursor: pointer;
+}
+.wifi_lan p{
+    width: 100%;
+    height:2px;
+    line-height: 20px;
+    background: #28c6c0;
+    position: absolute;
+    top:9px;
+    left:0;
+}
+.wifi_lan span{
+    padding:0 6px; 
+    color:#595959;
+    line-height: 20px;
+    background: #f7f7f7;
+    z-index: 100;
+    position: relative;
+}
+.wifi_5g_box{
+    width: 125px;
+    height:47px;
+    margin-top: 8px;
+}
+.wifi_5g{
+    width: 100%;
+    height:23px;
+    position: relative;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.wifi_5g_able{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -154px;
+}
+.wifi_5g_disable{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -180px;
+}
+.wifi_5g_hover{
+    display: none;
+    width: 115px;
+    padding: 5px;
+    border-radius: 5px;
+    background: #28c6c0;
+    color:#fff;
+    position: absolute;
+    top:52px;
+    left:0;
+    font-size: 12px;
+    word-wrap:break-word;
+    word-break: break-word;
+}
+.wifi_5g_box:hover .wifi_5g_hover{
+    display: block;
+}
+.wifi_5g_hover::after{
+    content:"";
+    position:absolute;
+    top:-12px;
+    left:57px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-bottom-color:#28c6c0;
+}
+.tip_5g{
+    width: 125px;
+    height:24px;
+    color:#7f7f7f;
+    line-height: 24px;
+}
+.router_deviceCount{
+    width: 124px;
+    height:90px;
+    text-align: center;
+}
+.content_status .router_deviceCount{
+    cursor: pointer;
+}
+.content_status_repeater .router_deviceCount{
+    line-height: 80px;
+    color:#212121;
+    font-size: 16px;
+    cursor: default;
+}
+.content_status .router_deviceCount span:nth-child(1){
+    margin-top: -10px;
+    font-size: 36px;
+    line-height: 80px;
+    color:#595959;
+    cursor: pointer;
+}
+.fun_name{
+    width:825px;
+    height:24px;
+    margin:0 auto;
+    transform: translateY(-20px);
+    overflow:hidden;
+}
+.fun_name p{
+    width: 145px;
+    color:#595959;
+    font-size: 14px;
+    line-height: 24px;
+    cursor: pointer;
+}
+.repeater_name{
+    width: 1000px;
+    height:28px;
+}
+.repeater_name p{
+    width: 145px;
+    color:#000;
+    font-size: 14px;
+    height:28px;
+    line-height: 28px;
+    transform: translateY(-20px);
+}
+.repeater_name p:nth-child(2){
+    position: relative;
+}
+.repeater_name p:nth-child(3){
+    position: relative;
+}
+.repeater_name .mainroute span,.repeater_name .selfroute span{
+    position: absolute;
+    width: 290px;
+    height:24px;
+    line-height: 24px;
+    left:-72px;
+    top:30px;
+    font-size: 12px;
+    color: #515151;
+}
+.hone_connect{
+    width: 100%;
+    height:52px;
+    padding: 46px 0 81px 0;
+}
+.hone_connect_repeater{
+    padding: 80px 0 70px 0;
+}
+.hone_connect .home_box{
+    display: inline-block;
+}
+.hone_connect .descripe{
+    color:#595959;
+    font-size: 12px;
+    font-weight: 800;
+}
+.hone_connect .content{
+    color:#7f7f7f;
+    margin-top:8px;
+    font-size: 12px;
+}
+.content_status_repeater .repeater_line_box{
+    width: 243px;
+    height:100%;
+    position: relative;
+}
+.content_status_repeater .repeater_line_box .repeater_line{
+    width: 100px;
+    height:2px;
+    background: #28c6c0;
+    position: absolute;
+    top:45px;
+}
+.content_status_repeater .repeater_center_box{
+    width:246px;
+    height:100%;
+    position: relative;
+}
+.content_status_repeater .repeater_status{
+    width:100px;
+    height:30px;
+    position: absolute;
+    top:30px;
+}
+.content_status_repeater .repeater_status_fail{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -206px;
+}
+.content_status_repeater .repeater_status_5G_good{
+    color:#8acb55;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -239px;
+}
+.content_status_repeater .repeater_status_5G_medium{
+    color:#fb7437;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -272px;
+}
+.content_status_repeater .repeater_status_5G_week{
+    color:#ef5146;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -305px;
+}
+.content_status_repeater .repeater_status_line{
+    color:#ef5146;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -338px;
+}
+.content_status_repeater .repeater_status .repeater_status_info{
+    width:110px;
+    height:20px;
+    line-height: 20px;
+    font-size: 12px;
+    position: absolute;
+    left:0;
+    bottom:25px;
+    height: auto;
+}
+.repeater_wireless_hover{
+    display: none;
+    width: 115px;
+    padding: 5px;
+    border-radius: 5px;
+    background: #28c6c0;
+    color:#fff;
+    position: absolute;
+    top:40px;
+    left:0;
+    font-size: 12px;
+    word-wrap:break-word;
+    word-break: break-word;
+}
+.repeater_wireless_box:hover .repeater_wireless_hover{
+    display: block;
+}
+.repeater_wireless_hover::after{
+    content:"";
+    position:absolute;
+    top:-12px;
+    left:57px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-bottom-color:#28c6c0;
+}
+.content_status_repeater .repeater_status .repeater_bridgestrenth{
+    width:110px;
+    height:20px;
+    line-height: 20px;
+    font-size: 12px;
+    position: absolute;
+    left:0;
+    top:25px;
+}
+.content_status_repeater .router_more{
+    width:90px;
+    height:90px;
+    position: relative;
+}
+.content_status_repeater .router_more .router_usb_line{
+    width: 104px;
+}
+.content_status_repeater .router_more .router_usb_line p{
+    width: 104px;
+}
+.content_status_repeater .router_more .router_usb_line span{
+    left:30px;
+}
+.content_status_repeater .router_deviceCount{
+    width: 100px;
+    height:90px;
+    text-align: center;
+}
+.resstart_box{
+    width: 95px;
+    height:95px;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -371px;
+    position: absolute;
+    left:50%;
+    margin-left: -48px;
+    bottom:-143px;
+}
+.resstart{
+    width: 39px;
+    height:40px;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -469px;
+    position: absolute;
+    left:28px;
+    bottom:27.5px;
+    cursor: pointer;
+}
+.resstart:hover{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -512px;
+}
+.resstart:hover .resword{
+    display: block;
+}
+.resword{
+    display: none;
+    width: 95px;
+    font-size: 14px;
+    color: #28c6c0;
+    position: absolute;
+    left:-28px;
+    bottom:64px;
+}
+.tipContent{
+    font-size: 12px;
+    color:#595959;
+    padding:0 30px;
+    margin-top:35px;
+}
+.rebootwin_box{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 10000;
+}
+.rebootwin_box .rebootwin{
+    width: 480px;
+    height:136px;
+    background-color: #fff;
+    border-radius: 8px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -68px;
+}
+.rebootwin_box .rebootwin_title{
+    margin-top: 30px;
+    color:#333;
+    font-size: 14px;
+    height: 19px;
+    line-height: 19px;
+    font-weight: bold;
+}
+.rebootwin_box .rebootwin_tip{
+    width: 360px;
+    margin-top: 20px;
+    color:#666;
+    font-size: 12px;
+    height: 16px;
+    line-height: 16px;
+    text-align: left;
+}
+.rebootwin_box .rebootwin_progress{
+    width: 360px;
+    height:5px;
+    margin-top: 10px;
+    background: #D6DAE1;
+    position: relative;s
+}
+.complete_progres{
+    width: 0;
+    height:5px;
+    position: absolute;
+    top:0;
+    left:0;
+    background: #28c6c0;
+}
+.hota_build{
+    width: 430px;
+    background: #28c6c0;
+    position: absolute;
+    word-break: break-all;
+    padding: 7px 10px;
+    top:-125px;
+    border-radius: 10px;
+    font-size: 12px;
+    color:#fff;
+    cursor: pointer;
+    z-index:1000;
+    text-align: center
+}
+/* home END */
+/* intelligence BEGIN */
+.Intelligence .label {
+    margin-top:10px;width:140px;
+    float: left;text-align: right;
+}
+.Intelligence .hour {
+    width:70px;display:inline-block;
+}
+.Intelligence .minute {
+    width:70px;display:inline-block;
+}
+.Intelligence .day {
+    width:52px;
+    height:52px;
+    text-align: center;
+    line-height: 52px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 26px;
+}
+.Intelligence .uncheck {
+    border: 1px solid #c9c9c9;
+}
+.Intelligence .checked {
+    color: #fff;
+    background-color: #28c0c6;
+    border: 1px solid #28c0c6;
+}
+
+
+/* intelligence END */
+/* internet BEGIN */
+    #Internet .internetStatus{
+        text-align: center;
+        padding: 27px 30px 10px 30px;
+        border-bottom: 1px solid #c9c9c9;
+    }
+    #Internet .noPaddingInternetStatus{
+        text-align: center;
+        border-bottom: 1px solid #c9c9c9;
+    }
+    #Internet .connectingTip{
+        text-align: center;
+        padding: 10px 30px 10px 30px;
+        border-bottom: 1px solid #c9c9c9;
+    }
+    #Internet .connectingTip .reconnectWord{
+        font-size: 14px;
+        color: #595959;
+        padding-left: 60px;
+    }
+    #Internet .detectOver{
+        height: 450px;
+    }
+    #Internet .indetecting{
+        height: 30px;
+        padding: 25px 0px;
+        line-height: 30px;
+        text-align: center;
+        border-bottom: 1px solid #c9c9c9;
+        font-size: 14px;
+        color: #595959
+    }
+    #Internet .indetectIcon{
+        height: 30px;
+        line-height: 30px;
+    }
+    #Internet .indetectIcon span {
+        vertical-align: middle;
+    }
+    #Internet .statusCheck{
+        height: 30px;
+        margin: 0 auto;
+    }
+    #Internet .statusCheck tr{
+        height: 32px;
+    }
+    #Internet .statusErr{
+        padding: 0 8px 0 10px;
+        font-size: 16px;
+    }
+    #Internet .statusReconnect{
+        width: 72px;
+        height: 34px;
+        cursor: pointer;
+        font-size: 12px;
+        border:1px solid #c9c9c9;
+        border-radius: 12px;
+    }
+    #Internet .statusReconnect:hover{
+        background-color: #28c0c6;
+        color:#fff;
+    }
+    #Internet .statusErrTip{
+        font-size: 12px;
+    }
+    #Internet .reconnect{
+        height: 70px;
+        text-align: center;
+        line-height: 70px;
+        font-size: 16px;
+        margin: 0 auto;
+    }
+    #Internet .reconnectIcon{
+        display: inline-block;
+        vertical-align: middle;
+        margin: 10px 15px 0 0;
+    }
+    #Internet .distinguishTip{
+        font-size: 12px;
+        color: #595959;
+        max-width: 375px;
+    }
+    #Internet .internetStyle{
+        font-size: 14px;
+        width: 710px;
+        margin-top: 40px;
+    }
+    #Internet .internetStyle .InputComponent .inputBox > input{
+        width:370px !important;
+    }
+    #Internet .internetStyle .InputComponent .inputBox .eye{
+        left:357px !important;
+    }
+    #Internet #wan_internet_bkdnsserverce, #Internet #wan_internet_servicename{
+      width:490px;
+    }
+    #Internet .autoDistinguish{
+        width: 100%;
+    }
+    #Internet .iconClass{
+        width: 21px;
+        height: 21px;
+    }
+    .noInputClass{
+        width: 253px;
+        height: 33px;
+        padding-left:8px;
+        color: #333;
+        border: 1px solid #c9c9c9;
+        border-radius: 10px;
+        z-index: -1;
+    }
+    .iconChose{
+        display: inline-block;
+        margin: 6px 0 0 15px;
+    }
+    .base-select{
+        width: 263px;
+        height: 35px;
+        color: #333;
+        border: 1px solid #b3b3b3;
+        border-radius: 10px;
+        font-size: 14px;
+        z-index: -1;
+   }
+   .macFormat{
+       width:220px;
+       line-height:14px;
+       font-size:12px;
+       color:#595959;
+       margin-top:15px
+   }
+   .ignore{
+        display: inline-block;
+        font-size: 12px;
+    }
+    .errorTip{
+        width: 234px;
+        height: 32px;
+        vertical-align: middle;
+        margin: 10px auto;
+    }
+    .errorWord{
+        width: 198px;
+        font-size: 12px;
+        float: left;
+    }
+    .btn_w263{
+        width: 263px;
+        height: 50px;
+        font-size: 16px;
+        text-align: center;
+        line-height: 50px;
+        border: 1px solid #b3b3b3;
+        border-radius: 10px;
+        margin: 40px 210px 45px 210px; 
+        cursor: pointer;
+    }
+    .btn_w263:hover{
+        background-color: #28c0c6;
+        border: 1px solid #28c0c6;
+        color:#fff;
+    }
+    .btn_w263_noclick{
+        width: 263px;
+        height: 50px;
+        font-size: 16px;
+        text-align: center;
+        line-height: 50px;
+        border: 1px solid #c9c9c9;
+        border-radius: 10px;
+        margin: 40px 210px 45px 210px; 
+        color: #c9c9c9;
+        pointer-events: none;
+        cursor: default;
+    }
+    #errIcon{
+        float: left;
+        margin-left: 5px;
+        width: 30px;
+        height: 30px;
+    }
+    #Internet .IptvError{
+        font-size: 12px;
+    }
+    #Internet .iconError{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -555px;
+        width:23px;height:23px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .bridage {
+        font-size: 12px;
+        line-height: 16px;
+        color:#595959;
+        margin: 10px 30px 0 216px;
+    }
+    .bridage  > p {
+        margin-top: 5px;
+    }
+    #Internet .indetectIcon .ic_wanfailed {
+        display: inline-block;
+    }
+/* internet END */
+/* ipv6 BEGIN */
+.title_line{
+    border-bottom:solid 1px #c9c9c9;
+    color:#000000;
+    font-size:16px;
+    padding:12px 0px;
+    margin:8px 36px 0;
+}
+.ipv6 .selectlist{
+    width:263px !important;
+    display:inline-block;
+    margin:0 18px
+}
+.ipv6 .ipline{
+    color: #262626;
+    margin: 0 5px;
+}
+.ipv6 .content{
+    font-size: 14px;
+}
+.ipv6 .alwayshow{
+    margin: 6px 215px 0 215px;
+    font-size: 12px;
+    color: #595959;
+}
+.ipv6 .InputComponent.customWidth {
+    margin: 0;
+}
+.ipv6 .ipInput > div, .ipv6 .ipInput > span {
+    height: 37px;
+    line-height: 37px;
+    vertical-align: middle;
+}
+/* ipv6 END */
+/* lan BEGIN */
+#lan .common_button_long {
+    margin: 60px 214px 100px 214px;
+}
+#lan .productList {
+  margin: 60px 28px 60px 28px;
+}
+#lan .title {
+  font-size: 18px;
+  text-align: center;
+  color: #262626;
+  line-height: 85px;
+  height:85px;
+}
+#lan .tabletitle {
+  font-size: 14px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #f2f2f2;
+}
+#lan .height_70{
+  height: 70px;
+  line-height: 70px;
+}
+#lan .botton_add{
+  position: absolute;
+  margin-top: -63px;
+}
+#lan .boxTitle{
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 24px;
+}
+#lan .tipContent{
+    font-size: 12px;
+    color:#595959;
+    padding:0 30px;
+    margin-top:35px;
+    text-align: center;
+}
+/* lan END */
+/* login BEGIN */
+.login{
+    width: 100%;
+    height: 100%;
+    margin-top: -130px;
+    min-height:732px;
+}
+.login .userlogin{
+    width: 100%;
+    height: 732px;
+    background-image: url(../res/bg.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login_container{
+    width: 1000px;
+    height:482px;
+    padding-top:97px;
+    margin: 65px auto 0;
+}
+.login_container .login_box{
+    width: 766px;
+    height:440px;
+    margin: 0 auto;
+}
+.login_container .login_opre{
+    width: 320px;
+    height: 233px;
+    padding:145px 113px 90px;
+}
+.login_container .hismart_box{
+    width: 210px;
+    height: 260px;
+    padding:90px 0;
+    text-align: center;
+}
+.login_container .loginTip{
+    display: inline-block;
+    text-align: left;
+    color:#e0ecf7;
+    font-size: 14px;
+    padding-bottom: 10px;
+    word-break: break-word;
+}
+.login_opre .InputComponent.customWidth{
+    margin:0
+}
+.login_opre .loginbtn{
+    width: 316px;
+    height:54px;
+    box-sizing: border-box;
+    color:#fff;
+    font-size: 18px;
+    margin:18px 0;
+    background: rgba(255,255,255,0.1);
+    border:1px solid rgba(245,245,245,0.6)
+}
+.login_opre .loginbtn:hover{
+    background: #28c0c6;
+}
+.login .login_container .login_opre input{
+    background: transparent;
+    color:#fff;
+    font-size: 14px;
+    border:1px solid rgba(245,245,245,0.3)!important
+}
+.login_container .login_opre .psw_mis{
+    min-height:22px;
+    padding:2px 0;
+    position: relative;
+}
+.login_container .login_opre .psw_mis .mis_word{
+    color:#b7d4ec;
+    font-size: 12px;
+    line-height: 16px;
+    width: 310px;
+}
+.login .hismart_box .hilink_img{
+    width: 160px;
+    height:160px;
+    margin: 0 auto;
+    margin-top: 73px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+  background-image: url('../res/atp-icon2.png');
+  background-position: left -0px;
+}
+.login .hismart_box .hilink_scan{
+    color: #fff;
+    font-size: 12px;
+    height:16px;
+    line-height: 16px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.login .hismart_box .hilink_img_custom{
+    width: 160px;
+    height:160px;
+    margin: 0 auto;
+    margin-top: 73px;
+    background-repeat: no-repeat;
+}
+.login .hismart_box .hilink_scan_custom{
+    color: #fff;
+    font-size: 12px;
+    height:16px;
+    line-height: 16px;
+    margin-top: 5px;
+}
+/* login END */
+/* macfilter BEGIN */
+.Macfilter .mianDes{
+    margin-top: 40px;
+    position: relative;
+    color:#333;
+    font-size: 14px;
+}
+.Macfilter .secondString{
+    position: absolute;
+    right: 160px;
+    bottom: 10px;
+}
+.Macfilter .PopDes{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+}
+.Macfilter .macfilterlist{
+    margin: 100px 28px;
+    position: relative;
+}
+.Macfilter .title{
+    font-size: 18px;
+    text-align: center;
+    color: #262626;
+    line-height: 85px;
+    height:85px;
+}
+.Macfilter .rowname {
+    width:100%;
+    height:40px;
+    font-size:14px;
+    color:#262626;
+    line-height:40px;
+    background-color:#F2F2F2;
+}
+.Macfilter .addbtn {
+    position: absolute;
+    top: 21px;
+}
+.Macfilter .listnum {
+    width: 80px;
+}
+.Macfilter .listname {
+    width: 245px;
+}
+.Macfilter .listmac {
+    width: 220px;
+}
+.Macfilter .listtable > div {
+    height: 100%;
+    line-height:70px;
+    text-align: center;
+    position: relative;
+}
+
+/* macfilter END */
+/* mirror BEGIN */
+#mirror .helpDesc {
+    font-size: 12px;
+    padding: 10px 0;
+    margin-left: 23px;
+}
+#mirror h3 {
+    width: 640px;
+    font-size: 18px;
+    font-weight: 100;
+    text-align: center;
+    height: 78px;
+    display: table-cell;
+    vertical-align: middle;
+}
+#mirror .title{
+    font-size:18px;
+    color:#333;
+    height:24px;
+}
+#mirror .capture_content{
+    font-size:14px;
+    color:#333;
+    margin-top:30px;
+}
+#mirror .captureInfo{
+    padding:30px 0 0 50px;
+    width:auto;
+    color:#333;
+    font-size:14px;
+}
+#mirror .timeselect{
+    width:263px;
+    display:inline-block;
+    margin:0 18px
+}
+#mirror .enable_btn{
+    margin-top:40px;
+    margin-left:27px;
+    width:100%
+}
+#mirror .crashdev{
+    margin-top:60px;
+    margin-bottom:30px;
+}
+#mirror .main_router {
+    font-size: 14px;
+    height: 32px;
+    line-height: 32px;
+}
+#mirror .info {
+    position: relative;
+    overflow: hidden;
+    min-height:70px;
+}
+#mirror .info > div {
+    display: inline-block;
+    vertical-align: middle
+}
+#mirror .mir_forceupg{
+    margin-top:30px;
+    margin-bottom:40px;
+}
+#mirror .upg_icon {
+    width: 50px; height: 50px;
+    margin: 10px 16px auto 16px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+#mirror .upg_iconOld {
+    width: 50px; height: 50px;
+    margin: 16px 0 0 22px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+#mirror .upg_btn{
+    font-size:18px;
+    color:#333;
+    text-align:left;
+    line-height:37px;
+}
+#mirror .upg_info{
+    font-size:14px;
+    color:#333;
+    margin-top:10px;
+}
+#mirror .local_btn{
+    font-size:12px;
+    display: table-cell;
+    width: 60px;
+    vertical-align: middle;
+    line-height: 1
+}
+#mirror .feedback_btn{
+    margin:10px 0;
+    font-size:14px;
+}
+#mirror .devicename{
+    font-size:14px;
+    color:#333;
+    width: 355px;
+}
+#mirror .ic_sign {
+    margin-top: 0;
+}
+/* mirror END */
+/* more BEGIN */
+#morePage {
+  width: 100%;
+  position: relative;
+}
+#morePage .container {
+  width: 960px;
+  margin: 10px auto;
+  border: 1px solid #c9c9c9;
+  border-radius: 8px;
+  background-color: rgb(242, 242, 242);
+  overflow: hidden;
+  box-sizing: content-box
+}
+#morePage .right_box {
+  width: 738px;
+  min-height: 1000px;
+  background-color: #fff;
+}
+/* more END */
+/* parentcontrol BEGIN */
+.parentcontrol .timecontrollist ,.parentcontrol .urlcontrollist {
+    margin:0 28px 60px;
+    position: relative;
+}
+.parentcontrol .title{
+    font-size: 18px;
+    text-align: center;
+    color: #262626;
+    line-height: 85px;
+    height:85px;
+}
+.parentcontrol .addbtn {
+    position: absolute;
+    top: 21px;
+}
+.parentcontrol .rowname {
+    width:100%;
+    height:40px;
+    font-size:14px;
+    color:#262626;
+    line-height:40px;
+    background-color:#F2F2F2;
+}
+.parentcontrol .listname {
+    width: 170px;
+}
+.parentcontrol .listinfo {
+    width: 290px;
+}
+.parentcontrol .listoperate {
+    width: 100px;
+}
+.parentcontrol .tableitem {
+    position: absolute;
+    left: 50%;top: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    margin:auto;
+}
+.parentcontrol .listinfo > div > div:first-child {
+    font-size:14px;line-height:20px;padding:0 10px;
+}
+.parentcontrol .listinfo > div > div:last-child {
+    color:#595959;font-size:14px;line-height:20px;padding:0 10px;
+}
+.parentcontrol .edit_big {
+    margin:auto;
+}
+.parentcontrol .listempty {
+    color:#262626;
+    font-size:14px;
+    height:70px;
+}
+.parentcontrol .label {
+    margin-top:10px;width:140px;
+}
+.parentcontrol .listtable > div {
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+.parentcontrol .hour {
+    width:70px;display:inline-block;vertical-align: middle;
+}
+.parentcontrol .minute {
+    width:70px;display:inline-block;vertical-align: middle;
+}
+.parentcontrol .day {
+    width:52px;
+    height:52px;
+    text-align: center;
+    line-height: 52px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 26px;
+}
+.parentcontrol .day_mt {
+    width:92px;
+    height:92px;
+    text-align: center;
+    line-height: 92px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 46px;
+    margin-bottom: 5px;
+}
+.parentcontrol .MaltiStyle{
+    margin-left:150px;
+    margin-top:-55px;
+}
+.parentcontrol .margintop_15{
+    margin-top:15px;
+}
+.parentcontrol .margintop_30{
+    margin-top:30px;
+}
+.parentcontrol .uncheck {
+    border: 1px solid #c9c9c9;
+}
+.parentcontrol .checked {
+    color: #fff;
+    background-color: #28c0c6;
+    border: 1px solid #28c0c6;
+}
+/* parentcontrol END */
+/* powerline BEGIN */
+.ic-edit-2 {
+  width: 15px; 
+  height: 15px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -581px;
+}
+.ic_powerline{
+  width:440px;
+  height:260px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-image: url('../res/atp-icon2.png');
+  background-position: left -163px;
+}
+#powerline .productList {
+  margin: 60px 28px 40px 28px;
+}
+#powerline .title {
+  font-size: 14px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #f2f2f2;
+}
+#powerline .productList .botton_add{
+  position: absolute;
+  margin-top: -63px;
+  margin-left: 620px;
+}
+#powerline .lineHeight_70 {
+  line-height: 70px;
+}
+#powerline .tableStyle{
+    display:table-cell;
+    height:40px;
+    vertical-align:middle;
+}
+#powerline .tableStyle_70{
+    display:table-cell;
+    height:70px;
+    vertical-align:middle;
+}
+/* powerline END */
+/* qos BEGIN */
+.qos a{
+    color:#28c0c6;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.qos{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 14px;
+}
+.qos .qos_content{
+    width: 710px;
+    min-height: 330px;
+    border:1px solid #d1d8e0;
+    border-radius: 8px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.qos .qos_content .qos_status{
+    width: 100%;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+.qos_status .qos_status_fail{
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d1d8e0;
+    box-sizing: border-box;
+}
+.qos_status .qos_wanfail_box{
+    height:26px;
+    margin: 0 auto;
+}
+.qos_status .qos_fail_img{
+    width: 23px;
+    height:23px;
+    line-height:23px;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -555px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.qos_status .qos_fail_text{
+    height:23px;
+    line-height: 23px;
+    display: inline-block;
+    font-size: 14px;
+    padding-left: 9px;
+    color:#252525;
+}
+.qos_status .qos_mesTip{
+    margin: 30px auto 0;
+}
+.qos_status .qos_mesTip:hover{
+    background: #28c0c6
+}
+
+.wansuccess_box{
+    display: inline-block;
+    height:50px;
+    margin: 0 auto;
+}
+.wansuccess_box li{
+    float: left;
+}
+.wansuccess_box .up_img,.wansuccess_box .down_img{
+    width: 36px;
+    height:36px;
+    margin-top: 7px;
+    background-repeat: no-repeat
+}
+.wansuccess_box .up_img{
+    background-image: url('/res/ic_upload.png');
+}
+.wansuccess_box .down_img{
+    background-image: url('/res/ic_download.png');
+}
+.wansuccess_box .up_speed,.wansuccess_box .down_speed{
+    padding-left:14px;
+    font-size: 35px;
+    color: #28c0c6;
+    height:50px;
+    line-height: 50px;
+}
+.wansuccess_box .up_nospeed,.wansuccess_box .down_nospeed{
+    font-size: 14px;
+    color: #252525;
+    padding-left:14px;
+    margin-top: 16px;
+}
+.wansuccess_box .up_after,.wansuccess_box .down_after{
+    padding-left:14px;
+    font-size: 14px;
+    color: #252525;
+    height:50px;
+    text-align: left;
+}
+.wansuccess_box .up_after p,.wansuccess_box .down_after p{
+    height:19px;
+    line-height: 19px;
+}
+.qos_status_success{
+    padding-bottom: 25px;
+    border-bottom: 1px solid #d1d8e0;
+    box-sizing: border-box;
+}
+.wansuccess_box .up_after p:nth-child(1),.wansuccess_box .down_after p:nth-child(1){
+    margin-top: 6px;
+}
+.qos_wanset{
+    height:19px;
+    line-height: 16px;
+    font-size: 14px;
+    color: #595959;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+.qos .check_box{
+    padding-top: 40px;
+}
+.qos .check_box .check_tip{
+    font-size: 14px;
+    color:#595959;
+    text-align: center;
+    margin-top: 26px;
+}
+.qos_speed_box{
+    margin-top: 60px;
+    width: 350px;
+    height: 210px;
+    color: #595959;
+    text-align: center;
+    display: inline-block;
+}
+.qos_speed_box .qos_speed_one{
+    width: 84px;
+    height:215px;
+    position: relative;
+    display: inline-block;
+}
+.qos_speed_box .qos_speed_one .speed_strength{
+    font-size: 12px;
+    width: 84px;
+    height:16px;
+    line-height: 16px;
+    position: absolute;
+    left:0;
+    transition: 1s;
+}
+.qos_speed_box .qos_speed_high .speed_strength{
+    bottom:215px;
+}
+.qos_speed_box .qos_speed_middle .speed_strength{
+    bottom:155px;
+}
+.qos_speed_box .qos_speed_small .speed_strength{
+    bottom:95px;
+}
+.qos_speed_box .qos_speed_one .speed_line{
+    width: 1px;
+    border-right: 1px solid #c9c9c9; 
+    position: absolute;
+    left:50%;
+    bottom:30px;
+    transition: 1s;
+}
+.qos_speed_box .qos_speed_high .speed_line{
+    height:131px;
+}
+.qos_speed_box .qos_speed_middle .speed_line{
+    height:71px;
+}
+.qos_speed_box .qos_speed_small .speed_line{
+    height:11px;
+}
+.qos_speed_box .qos_speed_one .ic_qos_container{
+    position: absolute;
+    left:18px;
+    transition: 1s;
+    width:52px;
+    height:52px;
+    background-repeat: no-repeat;
+}
+.qos_speed_box .qos_speed_high .ic_qos_container{
+    bottom:160px;
+}
+.qos_speed_box .qos_speed_middle .ic_qos_container{
+    bottom:100px;
+}
+.qos_speed_box .qos_speed_small .ic_qos_container{
+    bottom:40px;
+}
+.qos_speed_box .ic_qos_game{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -599px;
+}
+.qos_speed_box .ic_qos_video{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -654px;
+}
+.qos_speed_box .ic_qos_internet{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -709px;
+}
+.qos_speed_box .ic_qos_download{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -764px;
+}
+.qos_speed_box .qos_speed_one p{
+    width: 84px;
+    height:19px;
+    line-height: 19px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.qos .submit_box{
+    text-align: center;
+    color:#333;
+}
+.qos .submit_box .set_submit{
+    font-size: 16px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+.qos .qos_tgp .tgp_help{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    text-align: right;
+    position: relative;
+}
+.qos .qos_tgp .ic_tgp_help .help_content{
+    display: none;
+    width: 540px;
+    background: #28c0c6;
+    border-radius: 9px;
+    position: absolute;
+    top:-10px;
+    right:60px;
+    z-index: 1000;
+    text-align: left;
+    padding:10px 20px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 20px;
+}
+.qos .qos_tgp .ic_tgp_help .help_content::after{
+    content: "";
+    border:10px solid transparent;
+    border-left: 10px solid #28c0c6;
+    position: absolute;
+    right:-20px;
+    top:22px;
+}
+.qos .qos_tgp .ic_tgp_help:hover .help_content{
+    display: block;
+}
+.qos .qos_tgp .switchbutton_box{
+    padding-left:40px;
+    margin-bottom: 21px;
+    font-size: 14px;
+    color:#333;
+}
+.qos .qos_tgp .nosdcard{
+    padding-left:255px;
+    height:34px;
+    margin: 26px 0 2px;
+    font-size: 12px;
+    color:#545454;
+    text-align: left;
+}
+.qos .qos_tgp .nosdcard img{
+    width:28px;
+    height:30px;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+.qos .qos_tgp .nosdcard div{
+    display: inline-block;
+    height:34px;
+    line-height: 34px;
+}
+.qos .qos_tgp .game_container{
+    margin:58px 15px 15px 15px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+}
+.qos .qos_tgp .game_container .gameupdateTitle{
+    height:50px;
+    line-height: 50px;
+    font-size: 18px;
+    color: #242424;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+.qos .qos_tgp .game_container .nogamelist{
+    font-size: 12px;
+    line-height: 16px;
+    color:#242424;
+    height:280px;
+}
+.qos .qos_tgp .game_container .nogamelist img{
+    width: 96px;
+    height:96px;
+    margin-top: 40px;
+}
+.qos .qos_tgp .gameInfo{
+    width: 100%;
+    min-height:80px;
+}
+.qos .qos_tgp .gameInfo .gameone{
+    padding-left:15px;
+    color: #242424;
+    min-height:80px;
+    border-bottom: 1px solid #C9C9C9;
+    position: relative;
+}
+.qos .qos_tgp .gameInfo ul .gameone:last-child{
+    border:none;
+}
+.qos .qos_tgp .gameInfo .gameone > div{
+    display: inline-block;
+}
+.qos .qos_tgp .gameInfo .gameone > div{
+    display: inline-block;
+}
+.qos .qos_tgp .gameInfo .gameone .gameone_img{
+    width: 54px;
+    height:54px;
+    margin-top: 13px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.qos  .gameone_center{
+    padding-left: 15px;
+    width:498px;
+    height:62px;
+    margin-top:9px;
+}
+.qos  .gameone_center .gameone_name{
+    font-size: 18px;
+}
+.qos  .gameone_center .game_cv{
+    display:inline-block;
+    font-size: 14px;
+    line-height: 19px;
+    width: 100%;
+}
+.qos .game_cv span{
+    float: left;
+    display:inline-block;
+}
+.qos .game_cv .downstatus{
+    display: inline-block;
+    float: right;
+}
+.qos .game_cv .downstatus .slide{
+    display: inline-block;
+    width:60px;
+    height:2px;
+    margin-top: 9px;
+    position: relative;
+    background: #D6DAE1;
+}
+.qos .game_cv .downstatus .slide .downloadProcess{
+    position: absolute;
+    top:-25px;
+    right:0;
+    font-size:14px;
+    color:#242424;
+    font-style: normal;
+}
+.qos .game_cv .downstatus .slide .slide_line{
+    position: absolute;
+    top:0;
+    left:0;
+    height:2px;
+    background: #242424;
+    
+}
+.qos .game_nv{
+    font-size: 14px;
+    line-height: 19px;
+    color:#28c0c6;
+    clear: both;
+}
+.qos .game_nv span:last-child{
+    padding-left: 15px;
+}
+.qos .gameone .deleteone{
+    width: 30px;
+    height:30px;
+    position: absolute;
+    top:28px;
+    right:28px;
+}
+.qos .gameone .deleteone div{
+    cursor: pointer;
+}
+.qos .gameone .deleteone span{
+    display: block;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+.qos .delete_notice{
+    font-size: 12px;
+    color: #595959;
+    margin-top: 35px;
+}
+.qos .delete_failed{
+    font-size: 16px;
+    color: #595959;
+    margin-top: 70px;
+}
+/* qos END */
+/* reboot BEGIN */
+.Reboot .label {
+    margin-top:10px;width:140px;
+    float: left;text-align: right;
+}
+.Reboot .hour {
+    width:70px;display:inline-block;
+}
+.Reboot .minute {
+    width:70px;display:inline-block;
+}
+.Reboot .day {
+    width:52px;
+    height:52px;
+    text-align: center;
+    line-height: 52px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 26px;
+}
+.Reboot .uncheck {
+    border: 1px solid #c9c9c9;
+}
+.Reboot .checked {
+    color: #fff;
+    background-color: #28c0c6;
+    border: 1px solid #28c0c6;
+}
+
+
+/* reboot END */
+/* reset BEGIN */
+.reset .main_title{
+    margin-top:50px;
+    font-size:18px;
+    color:#333;
+    height:24px;
+}
+.reset .title_tip{
+    font-size:14px;
+    color:#333;
+    padding-top:30px;
+}
+.reset .modle{
+    width: 265px;
+    margin: 40px auto 0;
+    height: 52px;
+}
+.reset .enable_btn{
+    font-size:14px;
+    color:#333;
+}
+.reset .selectSpecial{
+    height: 26px;
+    width: 50px;
+    margin-top:6px;
+}
+.reset .tipinfo{
+    font-size:12px;
+    color:#595959;
+    padding-top:14px;
+}
+.reset .resetinfo{
+    font-size:12px;
+    color:#595959;
+    margin-top:35px;
+    padding:0 30px;
+}
+.reset .upload_container {
+    margin-top: 30px;
+    position: relative;
+    width: 738px;
+    font-size: 14px;
+}
+.reset .upload_container > div {
+    display: inline-block;
+    vertical-align: middle
+}
+.reset .restore_reset_content {
+    margin-bottom: 60px;
+}
+/* reset END */
+/* routestatus BEGIN */
+.Routestatus .title{
+    font-size: 18px;
+    text-align: center;
+    color: #262626;
+    line-height: 85px;
+    height:85px;
+}
+/* routestatus END */
+/* samba BEGIN */
+.samba .listinfo{
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.samba .advance_row{
+    font-size:16px;
+    padding-bottom:10px;
+    border-bottom: 1px solid #c9c9c9;
+    margin: 0 50px;
+}
+.samba .check_info{
+    margin: 0;
+    line-height: 16px;
+    font-size: 12px;
+    color: #595959;
+}
+.samba .common_button_long{
+    margin: 30px 0 60px 214px;
+}
+/* samba END */
+/* smartpush BEGIN */
+.smartpush .table_rounded{
+  position: relative;
+  border: 1px solid #c7c7c7;
+  border-radius: 8px;
+}
+.smartpush .title{
+    font-size: 18px;
+    text-align: center;
+    color: #262626;
+    line-height: 80px;
+}
+.smartpush .push_div{
+    padding-left:28px;
+    padding-right: 28px;
+    margin-bottom:40px;
+}
+.smartpush .table_row{
+    border-top: 1px solid #c9c9c9;
+    font-size:14px;
+    width:100%;
+}
+.smartpush .border_right{
+    border-right:1px solid #C9C9C9;
+    width: 550px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.smartpush .pushList {
+    padding-top:26px;
+    margin-left:26px;
+    font-size:16px;
+    color:#262626;
+}
+.smartpush .productList{
+   padding:10px 20px 20px 26px;
+   color:#595959;
+   font-size:14px;
+}
+.smartpush .push_row{
+    display: inline-block;
+    vertical-align:middle;
+    margin-left: 33px;
+}
+/* smartpush END */
+/* smartqos BEGIN */
+.smartqos a{
+    color:#28c0c6;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.smartqos .checkRadio_box{
+    width: 375px;
+    height:30px;
+    padding-top:34px;
+}
+.qos_autotest .up_handset,.qos_autotest .down_handset{
+    font-size: 14px;
+    color:#333;
+    margin-top: 12px;
+}
+.smartqos .up_handsetTip,.down_handsetTip{
+    display: inline-block;
+    width: 197px;
+    height:37px;
+    line-height: 37px;
+    text-align: right;
+}
+.qos_autotest .up_handset .up_handsetget,.qos_autotest .down_handset .down_handsetget{
+    display: inline-block;
+    width: 375px;
+    height:37px;
+    line-height: 37px;
+    text-align: left;
+}
+.qos_autotest .test_tip{
+    font-size: 14px;
+    color: #595959;
+    margin-top: 40px;
+    width: 488px;
+}
+.smartqos .test_btn{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.speedTest_box{
+    width: 100%;
+    height:100%;
+    position: fixed;
+    left:0;
+    top:0;
+    background:rgba(00,00,00,.5);
+    z-index: 10
+}
+.speedTest{
+    width:627px;
+    background: #fff;
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-top: -240px;
+    padding-bottom: 50px;
+}
+.smartqos .speedTest .speedTest_title{
+    height:96px;
+    line-height: 96px;
+    text-align: center;
+    border-bottom: 1px solid #c9c9c9;
+    font-size: 22px;
+    color: #262626;
+}
+.smartqos .speedTest .speedTest_img{
+    width: 160px;
+    height:100px;
+    margin-top: 30px;
+    background-color:transparent;
+    background-repeat: no-repeat;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -984px;
+}
+.smartqos .speedTest .speedtesting{
+  background-image: url('../res/atp-icon.png');
+  background-position: left -1087px;
+}
+.speedTest .speedTest_tip{
+    height:26px;
+    text-align: center;
+    margin-top: 25px;
+    overflow: hidden;
+}
+.speedTest .speedTest_tip .test_failed{
+    width: 22px;
+    height:22px;
+    display: inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -1190px;
+    
+}
+.speedTest .speedTest_tip .ic_tip{
+    width: 24px;
+    height:24px;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -1215px;
+}
+.speedTest .speedTest_tip .speedTest_tip_mes{
+    display: inline-block;
+    height:26px;
+    line-height: 26px;
+    font-size: 14px;
+}
+.speedTest .speedTest_expalme{
+    width: 375px;
+    line-height: 16px;
+    font-size: 12px;
+    padding-left:218px;
+    margin-top: 4px;
+}
+.smartqos .button_box{
+    text-align: center;
+    margin-top: 20px;
+}
+.smartqos .button_box div{
+    width:176px;
+    height:44px;
+    display: inline-block;
+}
+.speedTesting_box{
+    text-align: center
+}
+.speedTesting_box .test_proccess{
+    margin-top: 40px;
+}
+.speedTesting_box .speedTest_proccess{
+    margin-top: 20px;
+    font-weight: bold;
+    height:21px;
+    line-height: 21px;
+}
+.speedTesting_box .speedTesting_tip{
+    margin-top: 5px;
+}
+
+.smartqos .qos_handset{
+    font-size: 14px;
+    color:#333;
+}
+.qos_handset .handset_tip{
+    height:19px;
+    line-height: 19px;
+    font-size: 14px;
+    color: #595959;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.handset_example{
+    height:19px;
+    line-height: 19px;
+    color: #595959;
+    font-size: 14px;
+    padding-left:218px;
+    margin-top: 20px;
+}
+.handset_submit{
+    margin-top: 40px;
+}
+/* smartqos END */
+/* sntp BEGIN */
+.sntp .labelcontrol{
+    margin-top:10px;
+    width:140px; 
+}
+.sntp .selectmonth{
+    width:70px;
+    display:inline-block;  
+}
+.sntp .selectless{
+    width:120px;
+    display:inline-block;  
+}
+/* sntp END */
+/* tr069 BEGIN */
+.TR069 .mianDes{
+    margin-top: 40px;
+    position: relative;
+    color:#333;
+    font-size: 14px;
+}
+.TR069 .table{
+    display: table;
+    height: 40px;
+    margin-top: 12px;
+}
+.TR069 .InputComponent > div:first-child{
+    display: table;
+    height: 40px;
+    min-height: auto;
+    line-height: normal;
+}
+
+
+/* tr069 END */
+/* deviceRow BEGIN */
+.upg_icon {
+    width: 50px; height: 50px;
+    margin: 25px 16px auto 16px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.ic-small-loading{
+    width: 30px; height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../res/loading.gif);
+}
+#Upgrade .ic-checkbox {
+    padding: 0;
+    width: 21px; height: 21px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -819px;
+}
+.ic-checkbox-press {
+    width: 21px; height: 21px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -843px;
+}
+.ic_blue_arrow {
+    width: 20px;
+    height: 15px;
+    display: inline-block;
+    background-repeat: no-repeat;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -1242px;
+}
+.ic_blue_arrow_up {
+  background-image: url('../res/atp-icon.png');
+  background-position: left -1262px;
+}
+#Upgrade .status .status_icon {
+    overflow: visible;
+    cursor: pointer;
+}
+.upg_loading_bg{
+    width: 76px; height:37px;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 1px solid #B2E4EA;
+    border-radius: 12px;
+}
+.upg_loading{
+    height:40px;
+    position: absolute;
+    background-color: #B2E4EA;
+    top: -2px;
+    left: 0;
+    z-index: -1;
+}
+#Upgrade .common_button{
+    height: auto;
+    line-height: 1;
+    padding: 12px 0;
+}
+/* deviceRow END */
+/* upgrade BEGIN */
+.common_button_long_me, .unhover_button_long_me {
+    width: 263px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 auto;
+    color: #000;
+    border: 1px solid #c9c9c9;
+    background-color: rgba(255, 255, 255, .2);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 8px;
+    margin-top: 70px;
+    margin-bottom: 40px
+}
+.unhover_button_long_me {
+    cursor: default;
+}
+.common_button_long_me:hover{
+    background-color: #28C0C6;
+    border: 1px solid #28C0C6;
+    color: #fff;
+}
+#Upgrade .common_button_long,  #Upgrade .unhover_button_long{
+    margin: 80px auto 40px;
+}
+#Upgrade .curTime {
+    font-size: 12px;
+    color: rgb(89,89,89);
+    margin: 10px 0 20px 220px;
+}
+/* upgrade END */
+/* upgradeList BEGIN */
+#Upgrade .productList {
+    margin: 60px 28px 40px 28px;
+}
+#Upgrade .productList .upg_device_title {
+    font-size: 18px;
+    font-weight: 100;
+    text-align: center;
+    height: 78px;
+    line-height: 78px;
+}
+#Upgrade .productList .router_title {
+    font-size: 14px;
+    height: 38px;
+    line-height: 38px;
+}
+#Upgrade .productList .info {
+    overflow: visible;
+}
+#Upgrade .productList .product_container {
+    width:579px;
+    padding-bottom: 25px;
+}
+#Upgrade .productList .product_container .infos_contanier {
+    height: 75px;
+
+}
+#Upgrade .productList .product_container .info_desc {
+    margin-top: 10px;
+    width: 460px;
+}
+#Upgrade .product_container .info_desc .desc_title {
+    font-size: 14px;
+    color: #28c0c6;
+    display: inline-block
+}
+#Upgrade .product_container .info_desc .desc_title.enClick {
+    cursor: pointer;
+    text-decoration: underline
+}
+#Upgrade .product_container .info_desc .desc_detail {
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 10px;
+    word-break: break-word
+}
+#Upgrade .productList .product_container div {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+#Upgrade .productList .product_img {
+    width: 85px;
+    position: relative;
+}
+#Upgrade .productList .product_info {
+    width: 394px;
+    padding-top: 26px;
+    font-size: 16px;
+}
+#Upgrade .productList .button_con {
+    width: 100px;
+}
+#Upgrade .productList .button_con .common_button {
+    margin-top: 30px;
+    font-size: 12px;
+    word-wrap: break-word;
+}
+#Upgrade .productList .version_info{
+    margin-top: 10px;
+    font-size: 12px;
+}
+#Upgrade .productList .version_info .currentversion{
+    display: inline-block;
+    width: 170px;
+}
+#Upgrade .productList .status {
+    height: 100px;
+    width: 95px;
+    position: relative;
+}
+#Upgrade .productList .status .ic_sign{
+    width: 23px;
+    height: 23px;
+    padding: 0;
+    margin: 0;
+}
+#Upgrade .filepath {
+    font-size: 12px;
+    margin-top: 20px;
+    color: #262626;
+}
+#Upgrade .Upload {
+    margin-top: 29px;
+}
+#Upgrade .unhover_button_long {
+    color: #28c0c6;
+}
+/* upgradeList END */
+/* uploadInput BEGIN */
+.Upload {
+    position: relative;
+}
+.Upload .input_file {
+    width: 100%;
+    height: 24px;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    z-index: 100;
+}
+.Upload .show_upload_info {
+    height: 24px;
+    position: relative;
+}
+.Upload .button_file {
+    display: inline-block;
+    font-size: 14px;
+    border: 1px solid #cdcdcd;
+    padding: 0 5px;
+    height: 22px;
+    line-height: 22px;
+    cursor: default;
+    vertical-align: middle
+}
+.Upload .input_file_box {
+    height: 22px;
+    width: 180px;
+    border: 1px solid #cdcdcd;
+    padding: 0;
+    cursor: default;
+    display: inline-block;
+    vertical-align: middle;
+}
+/* uploadInput END */
+/* upnp BEGIN */
+#upnp .productList {
+  margin: 60px 28px 40px 28px;
+}
+#upnp .lineHeight_70 {
+  line-height: 70px;
+}
+#upnp .tipInfo {
+    margin-top:21px;
+    font-size:12px;
+    color:#595959;
+}
+.height_middle{
+    height:40px;
+    display: table-cell;
+    vertical-align: middle;
+}
+/* upnp END */
+/* urlsec BEGIN */
+.urlsec .underline-link{
+    cursor:pointer;
+    color:#28c0c6;
+    text-decoration:underline;
+}
+.urlsec .urlsec_list{
+    margin-top:30px;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+.urlsec .margin_25{
+    margin-left: 25px;
+}
+.urlsec .totlb{
+    height:621px;
+    font-size:16px;
+    border: 1px solid #c7c7c7;
+    border-radius:8px;
+}
+.urlsec .ur_title{
+    font-size: 18px;
+    text-align: center;
+    color: #262626;
+    line-height: 85px;
+    height:85px;width:680px;
+}
+.urlsec .ur_info{
+    width:100%;
+    height:40px;
+    font-size:14px;
+    color:#262626;
+    background-color:#F2F2F2;
+    border-top:1px solid #c7c7c7;
+}
+.urlsec .ur_line{
+    line-height:70px;
+}
+.urlsec .ur_width{
+    width:478px;
+}
+.urlsec .ur_text{
+    text-align:center;
+}
+.urlsec .ur_lis{
+    width: 478px;
+    line-height: 40px;
+}
+.urlsec .ur_height{
+    width: 198px;
+    line-height: 40px;
+}
+.urlsec .border_right{
+    border-right:1px solid #C9C9C9;
+}
+.urlsec .check_info {
+    margin: 0;
+    line-height: 16px;
+    font-size: 12px;
+    color: #595959;
+}
+/* urlsec END */
+/* vpn BEGIN */
+#VPN .plugininfo1{
+    font-size:18px;
+    color:#000000;
+    margin-top:60px;
+    padding:0 28px;
+    text-align:center;
+}
+#VPN .plugininfo2{
+    font-size:18px;
+    color:#000000;
+    padding:0 28px;
+    margin-bottom:60px;
+    text-align:center;
+}
+#VPN .vpnradio{
+    margin-bottom:2px;
+    margin-top:20px;
+    width:100%;
+    height:90px;
+}
+#VPN .vpnradio .secopt{
+    font-size:14px;
+    float:left;
+    width:197px;
+    text-align:right;
+    color:#333;
+    line-height:37px;
+}
+#VPN .vpnradio .option{
+    margin-left:18px;
+    text-align:left;
+    float:left;
+    margin-top:10px;
+    width:450px;
+}
+#VPN .urlcontrollist {
+    margin: 60px 28px 0;
+    position: relative;
+    border: 1px solid #c7c7c7;
+    border-radius: 8px;
+}
+#VPN .urlcontrollist .title{
+    font-size: 18px;
+    text-align: center;
+    color: #262626;
+    line-height: 85px;
+    height:85px;
+}
+#VPN .urlcontrollist .addbtn {
+    position: absolute;
+    top: 21px;
+}
+#VPN .urlcontrollist .rowname {
+    width:100%;
+    height:40px;
+    font-size:14px;
+    color:#262626;
+    line-height:40px;
+    background-color:#F2F2F2;
+}
+#VPN .urlcontrollist .tableitem {
+    position: absolute;
+    left: 50%;top: 50%;
+    transform: translate(-50%,-50%);
+    margin:auto;
+}
+#VPN .urlcontrollist .listtable > div {
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+#VPN .urlcontrollist .iconChose{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+}
+#VPN .vpn_table_cell{
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 1.5;
+    float: none;
+    padding-top: 10px;
+    left:18px;
+}
+/* vpn END */
+/* vpnContent BEGIN */
+#VPN .productList .info {
+  position: relative;
+  overflow: hidden;
+  font-size: 14px;
+  height: 70px;
+  line-height:70px;
+}
+#VPN .productList .info > div {
+  height: 100%;
+}
+#VPN .productList .info .link{
+  color:#28C0C6
+}
+#VPN .check_box{
+  margin-top:10px;
+}
+#VPN .sadColor{
+  color:#afafaf !important ;
+}
+#VPN .productList .info .status{
+  color:#afafaf
+}
+.InputError {
+    margin-top: 0;
+    height: auto;
+    min-height: 37px;
+    overflow: hidden;
+}
+/* vpnContent END */
+/* welcome BEGIN */
+.welcome {
+    margin-bottom: -100px;background-color: #e7e7e7;width: 100%;min-width: 1000px;
+}
+.welcome #guidetop {
+    height: 506px;width: 100%;min-width: 1000px;position: relative;
+}
+.welcome .welcomeimg {
+    right: 0px;bottom: 0px;position: absolute;left: 0px;width: 100%;min-width: 1000px;
+}
+.welcome .common {
+    position: absolute;left: 50%;margin-left: -480px;
+}
+.welcome .check_box{
+    display: inline-block;
+}
+.welcome #guide_title {
+    padding-top:15px;text-align:center;width:100%;min-width:1000px;font-size:28px;color:white;position:absolute;bottom:60px;
+}
+.welcome .guide_top {
+    text-align:center;width:100%;min-width:1000px;color:white;
+}
+.welcome .guide-lead-title{padding-top: 120px;font-size: 26px;}
+.welcome .guide-app-tip{padding-top: 20px;font-size: 18px;}
+.welcome .guide-lead-QR{padding: 20px 0;}
+.welcome .guide-app-download{font-size: 18px;}
+.welcome .welcomecontent {
+    max-width: 700px;margin-top: 30px;padding-bottom:30px;font-size: 14px;color: #595959;
+}
+.welcome .welcomecontent > div {
+    display: inline-block;width:100%;margin-top: 10px;
+}
+.welcome .guide_btn {
+    width: 235px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 57px;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 auto;
+    color: #fff;
+    border-radius: 8px;
+}
+.welcome .guide_btn_disable {
+    border: 1px solid #86d2d5;
+    background-color: #86d2d5;
+}
+.welcome .guide_btn_active {
+    border: 1px solid #28C0C6;
+    background-color: #28C0C6;
+}
+.welcome .InputError > div {
+    width: 500px!important;
+    margin-left: 0px!important;
+}
+/* welcome END */
+/* wifi BEGIN */
+.wifi{
+    width: 100%;
+    height:100%;
+    margin: 0 auto;
+}
+.Wifi_container{
+    width: 710px;
+    min-height: 400px;
+    border:1px solid #d1d8e0;
+    border-radius: 8px;
+    position: relative;
+}
+.Wifi_container .pwdcheck{
+    width: 375px;
+    height:37px;
+}
+.Wifi_container .wifisetting_tip{
+    width: 375px;
+    color:#595959;
+    font-size: 12px;
+    margin-top: 12px;
+}
+.Wifi_container .container_24g,.Wifi_container .container_5g,.Wifi_container .container_5g_2,.Wifi_container  .wifi_wpsmode{
+    font-size: 14px;
+    color:rgb(51, 51, 51);
+    padding-top:15px;
+}
+.Wifi_container .container_24g input,.Wifi_container .container_5g input,.Wifi_container .container_5g_2 input,.Wifi_container .wifi_wpsmode input{
+    color:#333
+}
+.Wifi_container .wifi_wpsmode{
+    font-size: 14px;
+    color: #333;
+    margin-bottom:50px;
+}
+.Wifi_container #wpsconnect{
+  width: 175px;
+  height: 45px;
+  font-size: 16px;
+  line-height: 45px;
+  background-color: #28C0C6;
+  border: 1px solid #28C0C6;
+  color: #fff;
+}
+.Wifi_container #wpsPopwin .PopWin_buttons{
+    width:200px !important;
+}
+.Wifi_container .button_box{
+    height:50px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color:#333;
+}
+.Wifi_container .button_box .common_button_long{
+    display: inline-block;
+}
+.Wifi_container .button_box .button_common_long_unclickable{
+    font-size: 16px;
+    color:#999;
+    background: rgb(240,240,240);
+    border-color:#c9c9c9;
+}
+.Wifi_container .popwin{
+    font-size: 12px;
+    color: #595959;
+}
+.Wifi_container .dbhoContent{
+    padding: 30px 30px 0;
+    width: 420px;
+}
+.Wifi_container .content2g{
+    padding-top:40px;
+    width: 420px;
+    color:rgba(00, 00, 00, 0.85)
+}
+.Wifi_container .content5g{
+    padding-top:20px;
+    width: 420px;
+    color:rgba(00, 00, 00, 0.85)
+}
+.Wifi_container .checkInit{
+    width: 375px;
+    height:37px;
+}
+.Wifi_container .wifi_powermode{
+    font-size: 14px;
+    color: #333;
+}
+.Wifi_container .wifi_powermode .power_notice{
+    font-size: 12px;
+    color: #595959;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.Wifi_container .powerPopwin .powerContent{
+    font-size: 14px;
+    color:rgba(00, 00, 00, 0.85);
+    margin-top: 40px;
+}
+.Wifi_container .powerPopwin .PopWin_buttons > div:last-child{
+    background: #28C0C6;
+    color: #fff;
+}
+.Wifi_container .wifisyncerr_box{
+    color: rgb(38,38,38);
+    font-size: 16px;
+    border-bottom: 1px solid #c9c9c9;
+}
+.Wifi_container .wifisyncerr_box .wifisyncerr_shadow{
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top: 80px;
+    left:0;
+    background: rgba(255,255,255,0.5);
+    overflow: hidden;
+    z-index: 100;
+}
+.Wifi_container .table{
+    font-size:14px;
+    color: #333;
+    height: auto;
+}
+.Wifi_container .wifi_table_cell{
+    display:table-cell!important;
+    vertical-align:middle;
+}
+/* wifi END */
+/* wlanadvance BEGIN */
+#wlanadvance .common_button_long {
+    margin: 30px 0 60px 214px;
+}
+#wlanadvance .wmm_tip{
+    font-size:12px;
+    color:#595959;
+    width:400px;
+    line-height:18px;
+    margin-top:5px;
+}
+/* wlanadvance END */
+/* wlanaccess BEGIN */
+.wlanaccess .macfilterlist{
+    margin: 100px 28px;
+    position: relative;
+}
+.wlanaccess .title{
+    font-size: 18px;
+    text-align: center;
+    color: #262626;
+    line-height: 85px;
+    height:85px;
+}
+.wlanaccess .addbtn {
+    position: absolute;
+    top: 21px;
+}
+.wlanaccess .rowname {
+    width:100%;
+    height:40px;
+    font-size:14px;
+    color:#262626;
+    line-height:40px;
+    background-color:#F2F2F2;
+}
+.wlanaccess .listnum {
+    width: 80px;
+}
+.wlanaccess .listname {
+    width: 245px;
+}
+.wlanaccess .listmac {
+    width: 220px;
+}
+.wlanaccess .listtable > div {
+    height: 100%;
+    line-height:70px;
+    text-align: center;
+    position: relative;
+}
+/* wlanaccess END */
+/* wlanintelligent BEGIN */
+.wlanintelligent .text_box{
+    font-size: 14px;
+    float: left;
+    width: 197px;
+    text-align:right;
+    color:#333;
+    line-height: 37px;
+}
+.wlanintelligent .common_button_long.disabled, .wlanintelligent .common_button_long.disabled:hover {
+    cursor: default;
+    color: #28C0C6;
+    background-color: transparent;
+    border: 1px solid #c9c9c9;
+}
+.wlanintelligent .popwinTip{
+    color: #000;
+    margin: 20px 30px 0;
+    font-size: 14px;
+}
+/* wlanintelligent END */
+/* userbehavior BEGIN */
+.userbehavior .thirdTitleContent .description{
+    color:#595959;
+}
+/* userbehavior END */
+/* privacy BEGIN */
+.privacy{
+    width: 100%;
+    text-align: center;
+}
+.privacy .pribacy_title{
+    width: 100%;
+    height:110px;
+    position: relative;
+    color:#fff;
+    display:table;
+    text-align: center;
+}
+.privacy .pribacy_title img{
+    width: 100%;
+    min-width: 1000px;
+    height:110px;
+    position: absolute;
+    left:0;
+    top:0;
+}
+.privacy .pribacy_title .content{
+    z-index: 100;
+    position: relative;
+    font-size: 30px;
+}
+.privacy .privacy_des{
+    max-width: 700px;
+    display: inline-block;
+    font-size: 16px;
+    color:#000;
+    padding-top:130px;
+}
+.privacy .privacy_des .check-box .oversize{
+    width: 96%;
+}
+.privacy a{
+    cursor: pointer;
+}
+.privacy .submit{
+    width: 235px;
+    height:55px;
+    line-height: 55px;
+    background: #28c0c6;
+    color:#fff;
+    border-color: #28c0c6;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+#index .privacy + #footer{
+    background: rgb(229,229,229);
+    height:402px;
+}
+/* privacy END */
+/* deviceList BEGIN */
+.Devices .devicesContainer .devicesList {
+    width: 958px;
+    min-height: 515px;
+    border-radius: 10px;
+    border: 1px solid #c9c9c9;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 120px;
+}
+.Devices .devicesContainer .devicesList .deviceTitle {
+    font-size: 16px;
+    width: 960px;
+    overflow: visible;
+    height: 40px;
+    background-color: #e9e9e9;
+    position: relative;
+    display: table
+}
+.Devices .devicesContainer .devicesList .deviceTitle.higher {
+    height: 57px;
+}
+.Devices .devicesContainer .devicesList .deviceTitle > div {
+    display: table-cell;
+    vertical-align: middle;
+    height:57px;
+}
+.Devices .devicesContainer .devicesList .deviceTitle.higher > div {
+    height: 57px;
+}
+.Devices .devicesList .deviceDesc {
+    height: 130px;
+    position: relative;
+}
+.Devices .devicesList .deviceDesc > div {
+    height: 100%;
+    position: relative;
+}
+.Devices .deviceDesc .deviceLogo, .Devices .deviceDesc .devicesInfo {
+    height: 100%;
+    color: #828282;
+    font-size: 12px;
+}
+
+.Devices .offline .deviceDesc .deviceLogo .imgContainer, .Devices .disallow .deviceDesc .deviceLogo .imgContainer {
+    opacity: 0.2;
+}
+.Devices .offline .deviceDesc .devicesInfo .deviceName .hostname, .Devices .offline .deviceDesc .devicesInfo .deviceRate,
+.Devices .disallow .deviceDesc .devicesInfo .deviceName .hostname, .Devices .disallow .deviceDesc .devicesInfo .deviceRate{
+    color: #828282;
+}
+.Devices .deviceDesc .devicesInfo .deviceName {
+    margin-top: 10px;
+}
+.Devices .deviceDesc .devicesInfo .deviceName > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+.Devices .deviceDesc .devicesInfo .deviceName .hostname {
+    color: #28c0c6;
+    font-size: 16px;
+    height: 38px;
+    line-height: 38px
+}
+.Devices .deviceDesc .devicesInfo .deviceName .hostname p {
+    height: 38px;
+    line-height: 19px;
+    word-break: break-all;
+    display: table-cell;
+    vertical-align: middle;
+}
+.Devices .deviceDesc .devicesInfo .deviceRate {
+    color: #333;
+    height: 18px;
+    margin-top: 3px;
+}
+.Devices .deviceDesc .devicesInfo .deviceRate > div, .Devices .deviceDesc .devicesInfo .deviceIpMac > div {
+    display: inline-block;
+}
+.Devices .deviceDesc .devicesInfo .deviceIpMac .link {
+    color: #28c0c6;
+}
+.Devices .deviceDesc .devicesInfo .deviceRate .upRate, .Devices .deviceDesc .devicesInfo .deviceIpMac .IP {
+    box-sizing: border-box;
+    width: 187px;
+}
+.Devices .deviceDesc .devicesInfo .deviceIpMac, .Devices .deviceDesc .devicesInfo .deviceTime {
+    margin-top: 5px;
+}
+.Devices .deviceDesc .rateData {
+    width: 100%;
+}
+.Devices .deviceDesc .rateData > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+.Devices .deviceDesc .rateData .rateDesc > div {
+    white-space: nowrap;
+    font-size: 14px;
+    color: #595959;
+    height: 30px;
+    line-height: 30px;
+    width: 90px;
+}
+.Devices .deviceDesc .mydevice {
+    width: 100%;
+    color: #28c0c6;
+    font-size: 14px;
+    text-align: center
+}
+.Devices .editName {
+    position: relative;
+    z-index: 1010;
+}
+.Devices .editName .InputComponent.customWidth {
+    margin-left: -1px;
+}
+.Devices .fixed_layer {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1000
+}
+.Devices .rateEdit {
+    width: 100%;
+    font-size: 12px;
+    position: relative;
+    z-index: 1000;
+}
+.Devices .rateEdit .marginleft_15 {
+    margin-bottom: 2px;
+}
+.Devices .rateEdit .rateEditDesc {
+    text-align: center
+}
+.Devices .list_category {
+    margin-top: 50px;
+    font-size: 12px;
+}
+.Devices .cate_container {
+    margin: 0 auto;
+}
+.Devices .cate_container > div {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 20px;
+    margin: 0 3px;
+}
+.Devices .cate_input {
+    outline: none;
+    width: 32px;
+    height: 28px;
+    padding: 0;
+    border: 1px solid #c9c9c9;
+    border-radius: 12px;
+    padding-left: 10px;
+    margin: 0 5px;
+    background: transparent;
+}
+.Devices .cate_container .btn_go,.Devices .cate_container .btn_go:hover {
+    padding: 0 9px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 12px;
+    border: 1px solid #c9c9c9;
+    cursor: pointer;
+}
+.Devices .cate_container .btn_go:hover {
+    border: 1px solid #28c0c6;
+    background-color: #28c0c6;
+    color: #fff;
+}
+.Devices .lengthError {
+    text-align: center;
+    color: #595959;
+    margin: 30px auto -10px;
+}
+.Devices .middleText{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+/* deviceList END */
+/* topology BEGIN */
+.Topology {
+    width: 960px;
+    margin: 84px auto 0;
+    color:#444;
+    font-size: 12px;
+}
+.Topology .internet_line {
+    width: 2px;
+    height: 68px;
+    margin: 28px auto;
+    background-color: #28C0C6;
+    position: relative;
+    overflow: visible
+}
+.Topology .offline_icon {
+    position: absolute;
+    top: 18px;
+    left: -15px;
+    z-index: 100;
+}
+.Topology .internet_line .rate_box {
+    width: 200px;
+}
+.Topology .internet_line .rate_box > div {
+    height: 31px;
+    line-height: 31px;
+    vertical-align: bottom;
+}
+.Topology .internet_line .rate_box strong {
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0 5px;
+}
+.Topology .internet_line .rate_box i {
+    display: inline-block;
+    height:18px;
+    padding-left: 15px;
+}
+.Devices .Topology .imgContainer {
+    margin: 0;
+    overflow: visible
+}
+.next_line {
+    width: 2px;
+    height: 35px;
+    background-color: #28C0C6;
+    margin-top: 28px;
+}
+.Topology .img_box {
+    width: 120px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+.Topology .topo_row {
+    position: relative;
+}
+.Topology .imgList {
+    margin-top: 28px;
+}
+.Topology .treeList {
+    height: 34px;
+    border: 2px solid #28C0C6;
+    border-bottom: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.Topology .treeList {
+    position: relative;
+}
+.Topology .treeList .next_line {
+    position: absolute;
+    top: 0;
+    margin-top: 0;
+}
+.Topology .internet_str {
+    position: absolute;
+    top: 43px;
+    white-space: nowrap
+}
+.Topology .device_name {
+    margin-top: 20px;
+    padding: 0 5px;
+    word-break: break-all;
+    position: relative;
+    height: 35px;
+}
+.Topology .device_name > div {
+    display: table-cell
+}
+.Topology .device_name .ic_container_topo > div {
+    display: inline-block;
+    vertical-align: top
+}
+.Topology .device_name:hover .bubble_box{
+    display: block;
+}
+.Topology .product_container {
+    position: absolute;
+    top: 30px;
+    width: 250px;
+    display: table;
+}
+.Topology .selfrouter {
+    position: relative;
+    width: 120px;
+    margin: 0 auto;
+}
+.Topology .product_container > div{
+    display: table-cell;
+    vertical-align: middle;
+}
+.Topology .otherLogo {
+    width: 72px;
+    height: 72px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 4px;
+    left: 0px;
+}
+.Topology .topo_offline {
+    opacity: 0.2;
+}
+.Topology .link_device {
+    cursor: pointer;
+}
+.Topology .link_device:hover .bigLogo, .Topology .link_device:hover .otherLogo {
+    opacity: 0.6;
+}
+.Topology .adjust_box {
+    margin: 48px auto 30px;
+}
+.Topology .adjust_desc {
+    padding: 0 30px;
+    font-size: 12px;
+    color: #595959;
+    text-align: center;
+}
+.Topology #submit {
+    background-color: #28C0C6;
+    border: 1px solid #28C0C6;
+    color: #fff;
+}
+.Topology .adjust_box .ic_warning {
+    cursor: default;
+}
+/* topology END */
+/* forceupg BEGIN */
+#forceupg{
+    width: 100%;
+    min-height:600px;
+    margin: 0 auto;
+}
+#forceupg .forceupg_title{
+    width: 100%;
+    height:110px;
+    position: relative;
+    color:#fff;
+    line-height: 110px;
+    text-align: center;
+}
+#forceupg .forceupg_title img{
+    width: 100%;
+    min-width: 1000px;
+    height:110px;
+    position: absolute;
+    left:0;
+    top:0;
+}
+#forceupg .forceupg_title .content{
+    position: relative;
+    font-size: 36px;
+}
+#index #forceupg + #footer{
+    background: rgb(229,229,229);
+}
+#forceupg .box{
+    text-align: center
+}
+#forceupg .product_img{
+    display: inline-block;
+    margin-top: 50px;
+    width: 180px;
+    height:180px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+#forceupg .upg_ver{
+    margin: 0 auto;
+    width: 650px;
+    line-height: 31px;
+    font-size: 24px;
+    margin-top: 40px;
+    word-break: break-all;
+}
+#forceupg .upg_ver > div{
+    text-align: center
+}
+#forceupg .box .upg_notice{
+    display: inline-block;
+    width: 510px;
+    font-size: 18px;
+    color:#656565;
+    margin-top: 40px;
+}
+#forceupg .box .ic_sign::before{
+    top:0;
+    transform: none; 
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+}
+#forceupg .button_box{
+    width: 557px;
+    height:54px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+#forceupg .switch_box{
+    width: 584px;
+    height:30px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+#forceupg .switch_notice{
+    width: 584px;
+    margin: 0 auto;
+    color: #595959;
+    font-size: 12px;
+    margin-bottom: 120px;
+}
+#forceupg .pop_notice{
+    margin-top: 40px;
+    color: rgba(00,00,00,0.85);
+    font-size: 14px;
+}
+#forceupg .PopWin_buttons{
+    margin: 50px auto 40px;
+}
+#forceupg .upg_notice_box .upg_notice{
+    margin-top: 20px;
+    width: 350px;
+    color:#595959;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+#forceupg .check-box{
+    color:#595959;
+    font-size: 14px;
+}
+#forceupg .upg_container{
+    width: 100%;
+    height:100%;
+    position: fixed;
+    left:0;top:0;
+    z-index:1000;
+    background: rgba(00,00,00,0.5)
+}
+#forceupg .upg_container .upg_content{
+    width: 480px;
+    min-height:200px;
+    position: absolute;
+    top:50%;
+    margin-top: -115px;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+#forceupg .upg_container .upg_content .upg_down{
+    width: 400px;
+    height:5px;
+    display: inline-block;
+    background-color: #D6DAE1;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+#forceupg .upg_container .upg_content .upg_down .upg_down_progres{
+    width: 10%;
+    height: 5px;
+    background: #26c6c0;
+}
+#forceupg .upg_container .upg_content .upg_finish{
+    margin: 30px 0;
+    position: relative;
+    height:79px;
+}
+#forceupg .upg_container .upg_content .upg_finish .loading{
+    width: 79px;
+    height:79px;
+    background-image: url(/res/loading.gif);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    position: absolute;
+    top:50%;
+    margin-top: -39.5px;
+}
+#forceupg .upg_container .upg_content .upg_finish .upgTime{
+    line-height: 79px;
+}
+#forceupg .upg_container .upg_content .upg_tips{
+    font-size: 14px;
+    color:#595959;
+    word-break: break-all;
+    margin:10px 32px 30px 32px;
+}
+#forceupg #logininfo{
+    display: inline-block;
+    text-align: left;
+    font-size: 14px;
+    padding-bottom: 10px;
+    word-break: break-word;
+}
+#forceupg #upg_later{
+    font-size:16px;
+    color:#28c0c6;
+    text-align:center;
+    margin-top:15px;
+    margin-bottom:20px;
+    cursor:pointer;
+}
+#forceupg .upgLater_notice{
+    margin:40px 20px 0;
+    color:#333;
+    font-size: 14px;
+    word-break: break-all;
+}
+/* forceupg END */
+/* topoadjust BEGIN */
+#Topoadjust {
+    width: auto;
+    margin: 0;
+}
+#Topoadjust .adjust_title {
+    width: 100%;
+    height: 110px;
+    font-size: 36px;
+    color: #e0ecf7;
+    line-height: 110px;
+    text-align: center;
+    background: url(/res/basicbg.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+#Topoadjust .adjust_container {
+    width: 1000px;
+    position: relative;
+    margin: 40px auto;
+    min-height: 560px;
+}
+#Topoadjust .adjust_topo {
+    width: 500px;
+}
+#Topoadjust .adjust_animate {
+    color: 12px;
+    color: #252525;
+}
+#Topoadjust .product_container {
+    position: relative;
+    margin-top: 20px;
+    white-space: nowrap;
+    top: 0;
+}
+#Topoadjust .device_name > div {
+    display: block;
+    text-align: center;
+}
+#Topoadjust .imgContainer {
+    margin: 0;
+    overflow: visible
+}
+#Topoadjust .all_high {
+    padding: 0 20px;
+    margin-top: 50px;
+    text-align: center
+}
+/* topoadjust END */
+/* tableView BEGIN */
+.tableView .title{
+    font-size: 18px;
+    text-align: center;
+    color: #262626;
+    line-height: 85px;
+    height:85px;
+}
+.tableView .addbtn {
+    position: absolute;
+    top: 21px;
+}
+.tableView .rowname {
+    text-align: center;
+    width:100%;
+    height:40px;
+    font-size:14px;
+    color:#262626;
+    background-color:#F2F2F2;
+}
+.tableView .rowname div:last-child{
+    border-right: none;
+}
+.tableView .clearboth div:last-child{
+    border-right: none;
+}
+.tableView .rowname .middleText{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+/* tableView END */
+/* redirect BEGIN */
+.redirect{
+    width: 100%;
+    min-height:667px;
+}
+.redirect a{
+    cursor: pointer;
+}
+#index .redirect + #footer{
+    background: rgb(229,229,229)
+}
+.redirect #guidetop {
+    height: 215px;
+    width: 100%;
+    min-width: 1000px;
+    text-align: center;
+    position: relative;
+}
+.redirect .guidebgimg{
+    right: 0px;
+    bottom: 0px;
+    top:0px;
+    position: absolute;
+    left: 0px;height:215px;
+    width: 100%;
+    min-width: 1000px;
+ }
+.redirect #guide_title{
+    font-size: 30px;
+    color: #e0ecf7;
+    position: relative;
+    padding-top: 30px;
+}
+.redirect .guide_internet{
+    display: inline-block
+}
+.redirect .setupcontent {
+    min-height: 300px;
+    padding: 50px 0;
+}
+.redirect .container{
+    width:710px;
+    min-height:300px;
+    border: 1px solid #c9c9c9;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+.redirect .container .restest{
+    margin-bottom: 50px;
+}
+.redirect .isCabled{
+    font-size: 14px;
+    color: #000;
+}
+.redirect .errTip{
+    display: inline-block;
+    margin-top: 27px;
+    color: #000;
+    font-size: 14px;
+    max-width: 375px;
+    width: auto;
+}
+.redirect .noanswer > div{
+    margin-top: 10px;
+}
+.redirect .retrybtn{
+    margin-top: 21px;
+    width: 176px;
+    height:44px;
+    line-height: 44px;
+}
+.redirect .button_box{
+    width: 378px;
+    margin: 0 auto;
+}
+.redirect .button_box > div{
+    width: 176px;
+    height:44px;
+    line-height: 44px;
+}
+.redirect .connected_success .connected{
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+.connected{
+  height:168px;
+  width:168px;
+  background-repeat: no-repeat;
+  background-image: url('../res/atp-icon2.png');
+  background-position: left -426px;
+}
+.redirect .connected_success .connected_tip{
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 50px;
+}
+.redirect .login_redirect{
+    margin-top: 100px;
+    margin-bottom: 23px;
+}
+.redirect .redirect_begin{
+    margin-top: 0;
+    position: relative;
+}
+.redirect .redirect_begin .router{
+    position: absolute;
+    top:30px;
+}
+.redirect .redirect_begin .Interneterror{
+    margin-top: 42px;
+    margin-bottom: 10px;
+}
+.redirect .psw_mis{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+}
+.login_redirect .InputComponent.customWidth{
+    margin:0
+}
+.login_redirect .loginbtn{
+    height:48px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color:#333;
+    margin-top:5px;
+    margin-bottom:18px;
+    border:1px solid rgb(201, 201, 201);
+}
+.login_redirect .loginbtn:hover{
+    background: #28c0c6;
+    border:1px solid #28c0c6;
+    color:#fff;
+}
+.redirect .PopWin .PopWin_box .popWin_title{
+    height:50px;
+    line-height: 50px;
+    font-size: 18px;
+}
+.redirect .tipContent{
+    margin-top: 45px;
+    font-size: 16px;
+    color: #000;
+}
+.redirect .PopWin .PopWin_box .PopWin_buttons{
+    width: 176px!important;
+    margin: 45px auto 40px;
+}
+.redirect .PopWin .PopWin_box .button{
+    width: 174px;
+    height:44px;
+    line-height: 44px;
+    margin:0!important;
+}
+.redirect .justtelecom .justmobile{
+    margin-top: 52px;
+    margin-bottom: 32px;
+}
+.redirect .telecon_tip .mobile_tip{
+    margin-bottom: 50px;
+}
+.redirect .download_tip{
+    margin-top: 150px;
+    font-size: 14px;
+    color:#666;
+    font-weight: 600;
+}
+.redirect .download_size{
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+.redirect .download_progress{
+    width: 400px;
+    background: #d6dae1;
+    height:5px;
+    margin-top: 10px;
+    margin-bottom: 23px;
+    position: relative;
+}
+.redirect .download_complete{
+    background: #28c0c6;
+    height:5px;
+    position: absolute;
+    left:0;
+    top:0;
+}
+.redirect #userpassword_labelinfo{
+    padding-right: 18px;
+}
+/* redirect END */
+/* repeater BEGIN */
+.repeater .title{
+    font-size: 18px;
+    text-align: center;
+    color: #262626;
+    line-height: 85px;
+    height:85px;
+}
+.repeater .rinfo{
+    font-size: 12px;width: 146px;min-height: 16px;position: absolute;word-break: break-all;top: -40px;
+}
+/* repeater END */
+/* toolbox BEGIN */
+.toolbox .table_rounded{
+  position: relative;
+  border: 1px solid #c7c7c7;
+  border-radius: 8px;
+}
+.toolbox .title{
+    font-size: 18px;
+    text-align: center;
+    color: #262626;
+    line-height: 80px;
+}
+.toolbox .setStatu{
+    font-size: 18px;
+    color: #262626;
+    height: 80px;
+}
+.toolbox .push_div{
+    padding-left:28px;
+    padding-right: 28px;
+    margin-bottom:40px;
+}
+.toolbox .table_row{
+    border-top: 1px solid #c9c9c9;
+    font-size:14px;
+    width:100%;
+}
+.toolbox .border_right{
+    border-right:1px solid #C9C9C9;
+    width: 494px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 20px;
+}
+.toolbox .statu_title {
+    font-size:14px;
+    font-weight: bold;
+    color:#262626;
+}
+.toolbox .productList{
+   color:#595959;
+   font-size:12px;
+}
+.toolbox .push_row{
+    display: inline-block;
+    vertical-align:middle;
+    margin-left: 45px;
+}
+/* toolbox END */
+/* wanadapterredirect BEGIN */
+.wanadapterredirect {
+    margin-bottom: -100px;width: 100%;min-width: 1000px;
+}
+.wanadapterredirect #guidetop {
+    height: 215px;width: 100%;min-width: 1000px;position: relative;
+}
+.wanadapterredirect .guidebgimg{
+    right: 0px;bottom: 0px;top:0px;position: absolute;left: 0px;height:215px;width: 100%;min-width: 1000px;
+ }
+.wanadapterredirect #guide_title{
+    font-size: 30px;
+    color: white;
+    position: relative;
+    padding-top: 30px;
+}
+.wanadapterredirect .setupcontent {
+    padding: 80px 0;
+    width: 700px;
+    margin: 50px 0 100px;
+}
+/* wanadapterredirect END */
+/* wlanauthorizeredirect BEGIN */
+.wlanauthorizeredirect {
+    margin-bottom: -100px;width: 100%;min-width: 1000px;
+}
+.wlanauthorizeredirect #guidetop {
+    height: 215px;width: 100%;min-width: 1000px;position: relative;
+}
+.wlanauthorizeredirect .guidebgimg{
+    right: 0px;bottom: 0px;top:0px;position: absolute;left: 0px;height:215px;width: 100%;min-width: 1000px;
+ }
+.wlanauthorizeredirect #guide_title{
+    font-size: 30px;
+    color: white;
+    position: relative;
+    padding-top: 30px;
+}
+.wlanauthorizeredirect .authorizecontent {
+    padding: 80px 44px 80px 0px;
+    width: 700px;
+    margin: 50px 0 100px;
+}
+/* wlanauthorizeredirect END */
+/* wansettings BEGIN */
+    .wansettings .wansetingsTip{
+        font-size: 14px;
+        color: #a3a3a3;
+        padding-left: 5px;
+    }
+    .wansettings .iptvBigTip , .wansettings .isdoublewan{
+        font-size: 16px;
+        margin: 20px 0 -40px;
+        text-align: center
+    }
+    .wansettings .mainContent{
+        margin: 50px 0;
+        height: auto;
+    }
+    .wansettings .delRowHight{
+        height: auto ;
+        line-height: 28px;
+    }
+    .wansettings .wanImg{
+        margin: 0 auto;
+        width: 185px;
+        height: 137px;
+        margin-bottom: 50px;
+    }
+    .wansettings .wansetCheckOne{
+        width: 340px;
+        margin-top: 12px;
+        font-size: 16px !important;
+    }
+/* wansettings END */
+/* wlaneco BEGIN */
+.wlaneco .hour {
+    width:70px;display:inline-block;vertical-align: middle;
+}
+.wlaneco .minute {
+    width:70px;display:inline-block;vertical-align: middle;
+}
+.wlaneco .day {
+    width:52px;
+    height:52px;
+    text-align: center;
+    line-height: 52px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 26px;
+}
+.wlaneco .day_mt {
+    width:92px;
+    height:92px;
+    text-align: center;
+    line-height: 92px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 46px;
+    margin-bottom: 5px;
+}
+.wlaneco .MaltiStyle{
+    margin-left:150px;
+    margin-top:-55px;
+}
+.wlaneco .margintop_15{
+    margin-top:15px;
+}
+.wlaneco .margintop_30{
+    margin-top:30px;
+}
+.wlaneco .uncheck {
+    border: 1px solid #c9c9c9;
+}
+.wlaneco .checked {
+    color: #fff;
+    background-color: #28c0c6;
+    border: 1px solid #28c0c6;
+}
+/* wlaneco END */
+/* iptv BEGIN */
+.padding-16px {
+    padding-right:16px;
+}
+#iptv .tipContent{
+    font-size: 14px;
+    color:#595959;
+    padding:0 30px;
+    margin-top:40px;
+}
+/* iptv END */
+/* wlantimeaccelerate BEGIN */
+.wlantimeaccelerate .channel_title{
+    height:85px;
+    line-height: 85px;
+    text-align: center;
+    font-size: 18px;
+    color: #262626;
+}
+.wlantimeaccelerate .channel_title .border_right{
+    border-right:1px solid #c9c9c9;
+}
+.wlantimeaccelerate .none_bottom{
+   width:100%;border-top:1px solid #c9c9c9;
+   border-bottom:none;
+   box-sizing: border-box;
+}
+div.table_rounded div.none_bottom:last-child{
+   width:100%;
+   box-sizing: border-box;
+}
+/* wlantimeaccelerate END */
+/* ntwkportrate BEGIN */
+#ntwkportrate .deviceImg{
+    margin: 0 auto;
+    width: 185px;
+    height: 137px;
+    margin-bottom: 50px;
+}
+/* ntwkportrate END */
+/* upgredirect BEGIN */
+#upgredirect .upgredirect_title{
+    width: 100%;
+    height:110px;
+    position: relative;
+    color:#fff;
+    line-height: 110px;
+    text-align: center;
+}
+#upgredirect .upgredirect_title img{
+    width: 100%;
+    min-width: 1000px;
+    height:110px;
+    position: absolute;
+    left:0;
+    top:0;
+}
+#upgredirect #logininfo{
+    display: inline-block;
+    text-align: left;
+    font-size: 14px;
+    padding-bottom: 10px;
+    word-break: break-word;
+}
+#upgredirect .forgetps{
+    width: 100%;
+    height: 21px;
+    line-height: 21px;
+    margin-top: 8px;
+    font-size: 14px;
+    color: #28c0c6;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: underline;
+}
+#upgredirect .tablecell {
+    display: table-cell;vertical-align: middle;line-height:1;
+}
+/* upgredirect END */
+/* loginleadapp BEGIN */
+#loginleadapp #loginlead_top{
+    height: 660px;
+    width: 100%;
+    position: relative;
+}
+#loginleadapp .loginlead_title{
+    height: 50px;
+    width: 1200px;
+    margin:0 auto;
+    position: relative;
+}
+#loginleadapp .lead_App{
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
+    left: 0px;
+    width: 100%;
+}
+#loginleadapp .appLogo{
+    position: absolute;
+    width: 117px;
+    height: 26px;
+    margin-top: 16px;
+}
+#loginleadapp .lead_productname{
+    position: absolute;
+    margin-top: 16px;
+    font-size: 18px;
+    color: #ffffff;
+    width:500px;
+    white-space: nowrap;
+}
+#loginleadapp .lead_title {
+    position: relative;
+    padding-top:10px;
+    width:100%;
+    font-size:50px;
+    color:#ffffff;
+}
+#loginleadapp .lead_tip{
+    position: relative;
+    padding-top:10px;
+    width:100%;
+    font-size:24px;
+    color:#ffffff;
+    opacity:0.8;
+}
+#loginleadapp .login_lead_QR{
+    position: relative;
+    width: 220px;
+    height: 220px;
+    margin-top: 35px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-image: url(../res/lead_QR.png);
+}
+#loginleadapp .download{
+    position: relative;
+    font-size:16px;
+    color:#ffffff;
+    margin-top:10px;
+}
+#loginleadapp .download_tip{
+    position: relative;
+    font-size:14px;
+    color:#B1F4FF;
+    margin-top:10px;
+}
+#loginleadapp input{
+    background-color: #001E55;
+    opacity:0.3;
+    color:#ffffff;
+    min-height:auto;
+    padding-right: 32px!important;
+}
+#loginleadapp .enter{
+    position: relative;
+    width: 38px;
+    height: 38px;
+    margin-top:-43px;
+    cursor: pointer;
+    background-color:rgba(0, 0, 0, 0.1);
+    background-repeat: no-repeat;
+    overflow: hidden;
+  background-image: url('../res/atp-icon.png');
+  background-position: left -1282px;
+}
+#loginleadapp .leadPwd_err{
+    min-height:22px;
+    padding: 10px 0;
+    width:330px;
+    position: relative;
+}
+#loginleadapp .err_word{
+    display: inline-block;
+    color:#ffffff;
+    font-size: 12px;
+    line-height: 16px;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+}
+#loginleadapp .login_info{
+    position: relative;
+    min-height: 20px;
+    width: 330px;
+    font-size:14px;
+    color:#ffffff;
+    opacity: 0.8;
+    margin-top:10px;
+}
+#loginleadapp input::-webkit-input-placeholder{
+    color: #ffffff;
+    font-size: 16px;
+}
+#loginleadapp input:-moz-placeholder{
+    color: #ffffff;
+    font-size: 16px;
+}
+#loginleadapp input::-moz-placeholder{
+    color: #ffffff;
+    font-size: 16px;
+}
+#loginleadapp input:-ms-input-placeholder{
+    color: #ffffff;
+    font-size: 16px;
+}
+#loginleadapp .loginbtn:hover{
+    background: #567172;
+}
+.forgetps_box{
+    width: 100%;
+    height:100%;
+    position: fixed;
+    top:0;
+    left:0;
+    background: rgba(00,00,00,0.5);
+    z-index: 101;
+}
+#loginleadapp .forgetps_content{
+    width: 480px;
+    background: #fff;
+    position: fixed;
+    top:50%;
+    left:50%;
+    margin-top: -240px;
+    margin-left: -240px;
+    border-radius: 5px;
+    text-align: center;
+    color:#272727;
+    font-size: 14px;
+}
+#loginleadapp .forgetps_content .forgetps_img{
+    width: 310px;
+    height: 190px;
+    margin: 20px auto 10px;
+    background-repeat: no-repeat;
+}
+#loginleadapp .forgetps_content .message_1{
+    margin:0 75px 5px;
+    color: #262636;
+}
+#loginleadapp .forgetps_content .message_2{
+    margin:0 75px 20px;
+    color: #fa0a0d;
+}
+#loginleadapp .forgetps_content .knowbtn{
+    width: 176px;
+    height:44px;
+    line-height: 44px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+#loginleadapp .select_box .select_list li:hover {
+  background-color: #001E55;
+  opacity: 0.9;
+  color: #fff;
+}
+#loginleadapp .select_box .list_fixed{
+    background-color: rgb(58,99,171);
+}
+#loginleadapp .select_box .select_list li.active{
+    background-color:#001E55;
+    opacity: 0.5;
+}
+#loginleadapp .select_box .info_show::after{
+    content: "";
+    position: absolute;
+    width: 38px; height: 38px;
+    margin-top: -3px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-image: url(../res/lead_enter_maintain.png)
+}
+#loginleadapp .border_1px{
+    border:1px solid rgb(201, 201, 201,0.3)
+}
+/* loginleadapp END */
+/* leadPage BEGIN */
+#leadPage .leadList{
+    width:1200px;
+    height:460px;
+    margin:20px auto;
+}
+#leadPage .PC_network{
+    width: 560px;
+    height: 460px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-image: url(../res/PC_network.png);
+}
+#leadPage .PC_remote{
+    width: 560px;
+    height: 460px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-image: url(../res/PC_remote.png);
+}
+#leadPage .PC_security{
+    width: 560px;
+    height: 460px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-image: url(../res/PC_security.png);
+}
+#leadPage .PC_service{
+    width: 560px;
+    height: 460px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-image: url(../res/PC_service.png);
+}
+#leadPage .leadPage_title{
+    font-size: 48px;
+    margin-top: 197px;
+    width: 600px;
+    color: #333333;
+}
+#leadPage .leadPage_tip{
+    font-size: 24px;
+    margin-top: 20px;
+    width: 600px;
+    color: #333333;
+}
+/* leadPage END */
+/* dmz BEGIN */
+.dmz .dmz_tablecell{
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 1;
+    float: none !important;
+    padding-top: 10px;
+}
+.dmz .select_box .info_show{
+    width: 225px;
+}
+/* dmz END */

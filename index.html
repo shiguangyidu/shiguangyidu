@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>深圳大学时光益读 - 官方网站</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <div class="navbar-brand d-flex align-items-center">
+                <a href="https://www.szu.edu.cn" target="_blank" class="szu-logo-link">
+                    <img src="images/szulogo.png" alt="深圳大学logo" class="szu-logo">
+                </a>
+                <div class="logo-divider"></div>
+                <a href="#" class="text-decoration-none d-flex align-items-center">
+                    <img src="images/logo.png" alt="时光益读logo" class="org-logo">
+                    <span class="org-name">时光益读</span>
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="home-link">首页</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">关于我们</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">项目介绍</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">组织架构</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer-social">关注我们</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="nav-decoration-bar"></div>
+
+    <!-- 主页横幅 -->
+    <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="carousel-content">
+                    <div class="overlay"></div>
+                    <img src="images/slide1.jpg" class="d-block w-100" alt="时光益读活动展示">
+                    <div class="carousel-caption">
+                        <h1 class="display-4 fw-bold">深圳大学时光益读</h1>
+                        <p class="lead">用知识点亮希望，以行动传递温暖</p>
+                        <a href="#about" class="btn btn-light btn-lg">了解更多</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-content">
+                    <div class="overlay"></div>
+                    <img src="images/slide2.jpg" class="d-block w-100" alt="公益教育活动">
+                    <div class="carousel-caption">
+                        <h1 class="display-4 fw-bold">公益教育</h1>
+                        <p class="lead">让每个孩子都能享受优质教育</p>
+                        <a href="#projects" class="btn btn-light btn-lg">查看项目</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-content">
+                    <div class="overlay"></div>
+                    <img src="images/slide3.jpg" class="d-block w-100" alt="志愿服务">
+                    <div class="carousel-caption">
+                        <h1 class="display-4 fw-bold">志愿服务</h1>
+                        <p class="lead">传递爱心，服务社会</p>
+                        <a href="#contact" class="btn btn-light btn-lg">加入我们</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-content">
+                    <div class="overlay"></div>
+                    <img src="images/slide4.jpg" class="d-block w-100" alt="团队活动">
+                    <div class="carousel-caption">
+                        <h1 class="display-4 fw-bold">团队风采</h1>
+                        <p class="lead">凝聚力量，共创未来</p>
+                        <a href="#team" class="btn btn-light btn-lg">认识我们</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-content">
+                    <div class="overlay"></div>
+                    <img src="images/slide5.jpg" class="d-block w-100" alt="活动成果">
+                    <div class="carousel-caption">
+                        <h1 class="display-4 fw-bold">活动成果</h1>
+                        <p class="lead">用行动创造改变</p>
+                        <a href="#achievements" class="btn btn-light btn-lg">查看详情</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">上一张</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">下一张</span>
+        </button>
+    </div>
+
+    <!-- 关于我们 -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">关于我们</h2>
+            
+            <!-- 组织简介 -->
+            <div class="about-intro">
+                <p>
+                    时光益读是一个专注于做乡村儿童阅读推广的高校公益组织，自2018年5月成立以来一直乘承着公益与阅读相结合的理念，努力打造一个充分有效链接城乡资源的阅读公益文化平台，助力乡村儿童全面发展。
+                </p>
+            </div>
+
+            <div class="about-content">
+                <!-- 我们正在做 -->
+                <div class="about-section">
+                    <h3 class="section-title">我们正在做</h3>
+                    <div class="doing-grid">
+                        <div class="doing-item">
+                            <i class="fas fa-users"></i>
+                            <div class="content">
+                                <h5>组织建设</h5>
+                                <ul>
+                                    <li>大学生社会实践团队</li>
+                                    <li>草根公益组织</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="doing-item">
+                            <i class="fas fa-book-reader"></i>
+                            <div class="content">
+                                <h5>阅读推广</h5>
+                                <ul>
+                                    <li>在乡村地区建设公益图书馆</li>
+                                    <li>在乡村地区开展趣味阅读营</li>
+                                    <li>在城市地区带领师生坚持阅读</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="doing-item">
+                            <i class="fas fa-broadcast-tower"></i>
+                            <div class="content">
+                                <h5>理念传播</h5>
+                                <ul>
+                                    <li>以新媒体矩阵传播公益理念</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 理念愿景 -->
+                <div class="about-section">
+                    <h3 class="section-title">理念愿景</h3>
+                    <div class="vision-items">
+                        <div class="vision-item">让乡村儿童因阅读点燃梦想</div>
+                        <div class="vision-item">让乡村教育因阅读再上台阶</div>
+                        <div class="vision-item">让乡村社区因阅读洋溢书香</div>
+                        <div class="vision-item">让乡村公益因阅读深入民心</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 项目介绍 -->
+    <section id="projects" class="project-section">
+        <div class="container">
+            <h2 class="section-title">项目介绍</h2>
+            <div class="project-content">
+                <div class="project-image-container">
+                    <img src="images/xiangmujieshao.jpg" alt="时光益读项目介绍" class="project-image">
+                </div>
+                <div class="project-text-container">
+                    <div class="project-text">
+                        <h3>公益图书馆</h3>
+                        <p>
+                            深入西藏、云南、广东、广西、湖南、江西和内蒙古等地的50多个边远山区或欠发达地区进行考察调研，建成并运营了35座"时光益读"乡村公益图书馆，配置图书超过130,000册，覆盖超过10,000名儿童。图书种类丰富，满足不同年龄儿童的阅读需求，孩子们在书香浸润中筑梦成长。
+                        </p>
+                    </div>
+                    <div class="project-text">
+                        <h3>趣味阅读营</h3>
+                        <p>
+                            以深圳大学为主体，招募全国550名高校师生志愿者，奔赴各地图书馆开展阅读营活动，为超3,600名乡村儿童开设了趣味阅读、趣味英语、趣味效学、主题教育一系列素质救育活动及课程。团队持续从不同维度激发乡村儿童的润读兴趣，引导孩子们培养良好的阅读习惯，并增强当地儿童与图书馆的情感联结，力求寓教于乐、教学相长。
+                        </p>
+                    </div>
+                    <div class="project-text">
+                        <h3>时空共读</h3>
+                        <p>
+                            团队在城市开启"时空共读"线上阅读打卡活动，链接国内多所高校，聚集域市阅读爱好者通过阅读打卡配捐书籍的方式，以阅读促进公益。
+                        </p>
+                        <p>
+                            该活动迄今为止，已举办了15期，通过互联网联结读书爱好者超4000人次，积累超过46,000小时阅读时长，由此转化的阅读积分共为乡村儿童配套超过20,000本儿童图书。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 组织架构 -->
+    <section id="team" class="org-structure">
+        <div class="container">
+            <h2>组织架构</h2>
+            <div class="structure-grid">
+                <div class="structure-item">
+                    <i class="fas fa-crown"></i>
+                    <h3>队长办</h3>
+                    <p>团队掌舵者，引领组织发展方向，管理团队日常事务，推动成员进步成长，链接外部资源，为组织发展续航！</p>
+                </div>
+                <div class="structure-item">
+                    <i class="fas fa-file-signature"></i>
+                    <h3>秘书长</h3>
+                    <p>负责协助队长办，跟进团队各项工作，筹备项目发展运营。</p>
+                </div>
+                <div class="structure-item">
+                    <i class="fas fa-users"></i>
+                    <h3>志愿者组</h3>
+                    <p>负责项目志愿者的招募与管理，团队内部成员的日常拓展与团建，同时链接外部学习资源，为团队成员赋能。</p>
+                </div>
+                <div class="structure-item">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>新媒体组</h3>
+                    <p>增强公信力，项目进度及时汇报；传播阅读能量，推送有趣的阅读资讯；引发大众的关注，一线乡村阅读现状的报道非常重要，让社会看到时光益读的力量。</p>
+                </div>
+                <div class="structure-item">
+                    <i class="fas fa-calculator"></i>
+                    <h3>财务组</h3>
+                    <p>进行团队资金预算决算工作，包括整理报销凭证，编制预算等。</p>
+                </div>
+                <div class="structure-item">
+                    <i class="fas fa-book-reader"></i>
+                    <h3>共读组</h3>
+                    <p>举办"时光共读"活动，以"阅读＋公益"为理念，打造城市阅读社群，实现时光益读城乡联动。</p>
+                </div>
+                <div class="structure-item">
+                    <i class="fas fa-library"></i>
+                    <h3>图书馆组</h3>
+                    <p>管理全国各地图书馆，对接当地馆长维系图书馆运营。</p>
+                </div>
+                <div class="structure-item">
+                    <i class="fas fa-handshake"></i>
+                    <h3>资拓组</h3>
+                    <p>外联对接与公益平台维护。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚部分 -->
+    <footer class="bg-dark text-light py-5">
+        <div class="container">
+            <div class="row">
+                <!-- 指导单位 -->
+                <div class="col-md-6 footer-section">
+                    <h5 class="footer-section-title">指导单位</h5>
+                    <ul class="footer-list">
+                        <li>深圳大学语言文字工作委员会</li>
+                    </ul>
+                </div>
+
+                <!-- 支持单位 -->
+                <div class="col-md-6 footer-section">
+                    <h5 class="footer-section-title">支持单位</h5>
+                    <div class="supporting-units">
+                        <div class="supporting-unit">深圳汇心承爱慈善基金会</div>
+                        <div class="supporting-unit">深圳市荣昇信息科技有限公司</div>
+                        <div class="supporting-unit">深圳市青少年发展基金会</div>
+                    </div>
+                </div>
+
+                <!-- 联系方式 -->
+                <div class="col-md-6 footer-section">
+                    <h5 class="footer-section-title">联系方式</h5>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div class="footer-contact-text">
+                            合作联系：18211402393（谭楚尧）
+                        </div>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="footer-contact-text">
+                            邮箱：sgyiduforever@163.com
+                        </div>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="footer-contact-text">
+                            地址：广东省深圳市南山区学苑大道1066号深圳大学丽湖校区
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 社交媒体二维码 -->
+                <div class="col-md-6 footer-section" id="footer-social">
+                    <h5 class="footer-section-title">关注我们</h5>
+                    <div class="social-links">
+                        <div class="qr-container">
+                            <img src="images/gongzhonghaoQR.png" alt="微信公众号" class="qr-code">
+                            <p class="qr-title">微信公众号</p>
+                        </div>
+                        <div class="qr-container">
+                            <img src="images/bilibiliQR.png" alt="bilibili" class="qr-code">
+                            <p class="qr-title">哔哩哔哩</p>
+                        </div>
+                        <div class="qr-container">
+                            <img src="images/xiaohongshuQR.png" alt="小红书" class="qr-code">
+                            <p class="qr-title">小红书</p>
+                        </div>
+                        <div class="qr-container">
+                            <img src="images/douyinQR.png" alt="抖音" class="qr-code">
+                            <p class="qr-title">抖音</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- 友情链接 -->
+            <div class="row mb-4">
+                <div class="col-12">
+                    <div class="d-flex justify-content-center">
+                        <a href="https://www.szu.edu.cn" target="_blank" class="mx-3 text-light text-decoration-none footer-link">深圳大学</a>
+                        <span class="text-light">|</span>
+                        <a href="https://www.lib.szu.edu.cn/" target="_blank" class="mx-3 text-light text-decoration-none footer-link">深圳大学图书馆</a>
+                        <span class="text-light">|</span>
+                        <a href="https://bs.szu.edu.cn/" target="_blank" class="mx-3 text-light text-decoration-none footer-link">深圳大学经济学院</a>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+            
+            <!-- 版权信息 -->
+            <div class="text-center">
+                <p class="mb-0">© 2025 深圳大学时光益读 版权所有</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // 导航栏滚动效果
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // 等待DOM加载完成后初始化轮播图
+        document.addEventListener('DOMContentLoaded', function() {
+            // 初始化轮播图
+            const myCarousel = document.querySelector('#mainCarousel');
+            if (myCarousel) {
+                const carousel = new bootstrap.Carousel(myCarousel, {
+                    interval: 7000,
+                    touch: true,
+                    pause: 'hover'
+                });
+            }
+            
+            // 添加首页按钮点击事件，实现回到顶部功能
+            const homeLink = document.getElementById('home-link');
+            if (homeLink) {
+                homeLink.addEventListener('click', function(e) {
+                    e.preventDefault(); // 阻止默认的链接行为
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth' // 平滑滚动效果
+                    });
+                });
+            }
+        });
+    </script>
+</body>
+</html>
